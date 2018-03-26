@@ -3,24 +3,14 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <img width="300" alt="Angular Logo" src="./assets/bwlogo.svg">
+  <img width="300" alt="Angular Logo" src="./assets/bwlogo.svg" (click)="load()">
 </div>
 
-<ul>
-  <li *ngFor="let event of observableEvents | async" >
+<ul *ngIf="showEvents()">
+  <li  *ngFor="let event of events" >
     Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
   </li>
 </ul>
-<!--<h2>Here are some links to help you start: </h2>-->
-<!--<ul>-->
-  <!--<li>-->
-    <!--<h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>-->
-  <!--</li>-->
-  <!--<li>-->
-    <!--<h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>-->
-  <!--</li>-->
-  <!--<li>-->
-    <!--<h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>-->
-  <!--</li>-->
-<!--</ul>-->
+<p>neco</p>
+
 
