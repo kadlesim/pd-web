@@ -1,13 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="./assets/bwlogo.svg" (click)="load()">
-</div>
 
-<ul *ngIf="showEvents()">
-  <li  *ngFor="let event of events" >
+<header class="app-header">
+  <img width="100" alt="PD Logo" src="./assets/bwlogo.svg" (click)="load()">
+  <nav class="nav-bar">
+    <ul>
+      <li><a routerLink="home-page" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="events" routerLinkActive="active">Events</a></li>
+      <li><a routerLink="players" routerLinkActive="active">Team</a></li>
+      <li><a routerLink="results" routerLinkActive="active">Results</a></li>
+      <li><a routerLink="blog" routerLinkActive="active">Blog</a></li>
+      <li><a routerLink="media" routerLinkActive="active">Media</a></li>
+      <li><a routerLink="login" routerLinkActive="active">LogIn</a></li>
+    </ul>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+<!--<div class="logo-img">-->
+  <!--<img width="300" alt="Angular Logo" src="./assets/bwlogo.svg" (click)="load()">-->
+<!--</div>-->
+
+<ul> <!--*ngIf="showEvents()"-->>
+  <li *ngFor="let event of events">
     Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
   </li>
 </ul>

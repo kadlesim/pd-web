@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Observable} from 'rxjs/Observable';
-import {EventsService} from './events.service';
-import {Event} from './event';
+import {EventsService} from './evetnts/events.service';
+import {Event} from './evetnts/event';
 import {log} from 'util';
 import 'rxjs/add/operator/map';
 
@@ -15,18 +15,27 @@ export class AppComponent implements OnInit {
 
   events: any;
   data: any;
+
+  eventsLoaded: boolean;
+
   constructor(private eventService: EventsService) { }
 
   ngOnInit(): void {
-    this.showEvents();
-    this.events = this.data.data;
+    this.eventsLoaded = true;
+    // this.showEvents();
+    // this.events = this.data.data;
   }
 
   showEvents() {
-    this.eventService.getEvents()
-      .subscribe(data => this.data = {
-        data: data['data']
-      });
+    if (this.eventsLoaded) {
+      this.eventService.getEvents()
+        .subscribe(data => this.data = {
+          data: data['data']
+        });
+      this.eventsLoaded = false;
+    }
+
+    console.log("tuuuuu");
     this.events = this.data.data;
     return true;
   }
@@ -34,6 +43,9 @@ export class AppComponent implements OnInit {
   load(): void {
     // console.log(this.dataE);
     // log('' + this.events[0]);
+    this.showEvents();
+    this.events = this.data.data;
+
     log('sem tu');
     console.log(this.data.data);
 
