@@ -1,7 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <header class="app-header">
-  <img width="100" alt="PD Logo" src="./assets/bwlogo.svg" (click)="load()">
+  <img class="pd-logo" width="100" alt="PD Logo" src="./assets/bwlogo.svg" (click)="load()">
   <nav class="nav-bar">
     <ul>
       <li><a routerLink="home-page" routerLinkActive="active">Home</a></li>
@@ -10,7 +10,7 @@
       <li><a routerLink="results" routerLinkActive="active">Results</a></li>
       <li><a routerLink="blog" routerLinkActive="active">Blog</a></li>
       <li><a routerLink="media" routerLinkActive="active">Media</a></li>
-      <li><a routerLink="login" routerLinkActive="active">LogIn</a></li>
+      <li><a routerLink="login" routerLinkActive="active">Sign In</a></li>
     </ul>
   </nav>
 </header>
@@ -25,6 +25,11 @@
     Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
   </li>
 </ul>
-<p>neco</p>
+<!--<p>neco</p>-->
+
+<footer class="app-footer">
+  Some copyright info or perhaps some author
+  info for an &lt;article&gt;?
+</footer>
 
 

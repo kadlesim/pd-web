@@ -4,6 +4,10 @@
   /*display: inline-grid;*/
 }
 
+.pd-logo {
+  background-color: darkred;
+}
+
 nav ul{
   list-style: none;
 }
@@ -28,4 +32,16 @@ nav a.active {
   /*background-color: darkred;*/
   border-bottom: 0.3em darkred solid;
   /*border: #061bff;*/
+}
+
+.app-footer {
+  overflow: hidden;
+  background-color: #111111;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: #f2f2f2;
 }
