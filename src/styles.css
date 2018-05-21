@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-  font-family: "Roboto Light";
+@font-face {
+  font-family: Roboto;
+  src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
+html{
+  font-family: "Roboto Light", sans-serif;
   margin: 0;
   padding: 0;
 }
