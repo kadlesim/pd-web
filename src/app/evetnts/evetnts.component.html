@@ -1,3 +1,9 @@
 <p>
-  evetnts works!
+  evetnts works!23
 </p>
+
+<ul *ngIf="showEvents()">
+  <li *ngFor="let event of events">
+    Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
+  </li>
+</ul>

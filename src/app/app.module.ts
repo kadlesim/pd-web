@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {EventsService} from './evetnts/events.service';
+import {PlayersService} from './players/players.service';
 import { PlayersComponent } from './players/players.component';
 import { EvetntsComponent } from './evetnts/evetnts.component';
 import { MediaComponent } from './media/media.component';
@@ -15,6 +16,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { EventsResolver } from './evetnts/events-resolver.service';
 // import {Md5} from 'ts-md5/dist/md5';
 
 
@@ -33,7 +35,10 @@ const appRoutes: Routes = [
   },
   {
     path: 'events',
-    component: EvetntsComponent
+    component: EvetntsComponent,
+    resolve: {
+      events: EventsResolver
+    }
   },
   {
     path: 'media',
@@ -85,12 +90,14 @@ const appRoutes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+      // { enableTracing: true } // <-- debugging purposes only
     ),
     // Md5
   ],
   providers: [
-    EventsService
+    EventsService,
+    EventsResolver,
+    PlayersService
   ],
   bootstrap: [
     AppComponent

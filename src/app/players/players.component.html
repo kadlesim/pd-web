@@ -1,3 +1,9 @@
 <p>
   players works!
 </p>
+
+<ul *ngIf="showPlayers()">
+  <li *ngFor="let player of players">
+    <img src="http://pd.tymy.cz{{player.pictureUrl}}">name: {{player.login}}
+  </li>
+</ul>

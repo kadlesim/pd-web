@@ -13,42 +13,16 @@ import 'rxjs/add/operator/map';
 export class AppComponent implements OnInit {
   title = 'pd';
 
-  events: any;
-  data: any;
+  // events: any;
+  // data: any;
+  //
+  // eventsLoaded: boolean;
 
-  eventsLoaded: boolean;
-
-  constructor(private eventService: EventsService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.eventsLoaded = true;
+    // this.eventsLoaded = true;
     // this.showEvents();
     // this.events = this.data.data;
-  }
-
-  showEvents() {
-    if (this.eventsLoaded) {
-      this.eventService.getEvents()
-        .subscribe(data => this.data = {
-          data: data['data']
-        });
-      this.eventsLoaded = false;
-    }
-
-    console.log("tuuuuu");
-    this.events = this.data.data;
-    return true;
-  }
-
-  load(): void {
-    // console.log(this.dataE);
-    // log('' + this.events[0]);
-    this.showEvents();
-    this.events = this.data.data;
-
-    log('sem tu');
-    console.log(this.data.data);
-
-    console.log(this.events[0].caption);
   }
 }

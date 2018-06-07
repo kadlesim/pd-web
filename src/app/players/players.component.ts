@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PlayersService} from './players.service';
 
 @Component({
   selector: 'app-players',
@@ -7,9 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayersComponent implements OnInit {
 
-  constructor() { }
+  players: any;
+  data: any;
+
+  playersLoaded: boolean;
+  constructor(private playersService: PlayersService) { }
 
   ngOnInit() {
+    this.playersLoaded = true;
+  }
+
+  showPlayers() {
+    if (this.playersLoaded) {
+      this.playersService.getPlayers()
+        .subscribe(data => this.data = {
+          data: data['data']
+        });
+      this.playersLoaded = false;
+    }
+    console.log('tuuuuu');
+    console.log(this.data.data);
+    this.players = this.data.data;
+    return true;
   }
 
 }
