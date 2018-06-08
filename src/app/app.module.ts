@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {EventsService} from './evetnts/events.service';
 import {PlayersService} from './players/players.service';
+import {BlogService} from './blog/blog.service';
 import { PlayersComponent } from './players/players.component';
 import { EvetntsComponent } from './evetnts/evetnts.component';
 import { MediaComponent } from './media/media.component';
@@ -97,7 +98,8 @@ const appRoutes: Routes = [
   providers: [
     EventsService,
     EventsResolver,
-    PlayersService
+    PlayersService,
+    BlogService
   ],
   bootstrap: [
     AppComponent

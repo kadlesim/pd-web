@@ -26,7 +26,7 @@ export class PlayersComponent implements OnInit {
         });
       this.playersLoaded = false;
     }
-    console.log('tuuuuu');
+    console.log('showPlayers');
     console.log(this.data.data);
     this.players = this.data.data;
     return true;

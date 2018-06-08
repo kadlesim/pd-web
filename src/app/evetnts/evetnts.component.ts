@@ -2,6 +2,7 @@ import {AfterContentInit, AfterViewInit, Component, OnInit} from '@angular/core'
 import {EventsService} from './events.service';
 import 'rxjs/add/operator/map';
 import {ActivatedRoute} from '@angular/router';
+import {DatePipe} from '@angular/common';
 
 @Component({
   selector: 'app-evetnts',
@@ -34,7 +35,7 @@ export class EvetntsComponent  implements OnInit {
         });
       this.eventsLoaded = false;
     }
-    console.log('tuuuuu');
+    console.log('showEvents');
     console.log(this.data.data);
     this.events = this.data.data;
     return true;

@@ -4,6 +4,6 @@
 
 <ul *ngIf="showEvents()">
   <li *ngFor="let event of events">
-    Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
+    date : {{event.startTime | date:'yyyy-MM-dd'}} Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
   </li>
 </ul>
