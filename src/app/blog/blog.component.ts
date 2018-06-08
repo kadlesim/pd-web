@@ -22,7 +22,8 @@ export class BlogComponent implements OnInit {
   }
 
 
-
+//todo udelat "staticky" - z tymu natahat do firebase db
+  //to same s historii
   showNews() {
     if (this.newsLoaded) {
       // console.log(this.blogService.getNews());
