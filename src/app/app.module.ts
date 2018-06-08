@@ -7,6 +7,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {EventsService} from './evetnts/events.service';
 import {PlayersService} from './players/players.service';
 import {BlogService} from './blog/blog.service';
+import {BlogPostService} from "./blog-post/blog-post.service";
 import { PlayersComponent } from './players/players.component';
 import { EvetntsComponent } from './evetnts/evetnts.component';
 import { MediaComponent } from './media/media.component';
@@ -18,6 +19,7 @@ import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { EventsResolver } from './evetnts/events-resolver.service';
+import { BlogPostComponent } from './blog-post/blog-post.component';
 // import {Md5} from 'ts-md5/dist/md5';
 
 
@@ -29,6 +31,10 @@ const appRoutes: Routes = [
   {
     path: 'blog',
     component: BlogComponent
+  },
+  {
+    path: 'blog-post:path',
+    component: BlogPostComponent
   },
   {
     path: 'players',
@@ -84,7 +90,8 @@ const appRoutes: Routes = [
     ProfileComponent,
     PlayerDetailComponent,
     PageNotFoundComponent,
-    HomePageComponent
+    HomePageComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
@@ -99,7 +106,8 @@ const appRoutes: Routes = [
     EventsService,
     EventsResolver,
     PlayersService,
-    BlogService
+    BlogService,
+    BlogPostService
   ],
   bootstrap: [
     AppComponent
