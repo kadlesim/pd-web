@@ -1,0 +1,145 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "HMČR Chomutov mix A (ČR)",
+   "umisteni": "3./12",
+   "sestava": "bobes, me2d, lukasF, frankie, hera, nahur, mojza, KK, maruska, jajes,martja"
+ },
+ {
+   "turnaj": "HMČR Chomutov mix B (ČR)",
+   "umisteni": "8./12",
+   "sestava": "dzarda, pavel, papa, marieK, mathes, jakubM, stepan, zuzka, jita"
+ },
+ {
+   "turnaj": "FrisBeerCup 2008 (ČR)",
+   "umisteni": "1./12",
+   "sestava": "bobes, me2d, dred, lukasF, papá, frankie, hera, nahur, bida, KK"
+ },
+ {
+   "turnaj": "HMČR Brno open (ČR)",
+   "umisteni": "3./12",
+   "sestava": "bobes, lukasF, frankie, lukasK, nahur, mojza, pavel, pavelU, jarda, alexS"
+ },
+ {
+   "turnaj": "HMČR Brno woman (ČR)",
+   "umisteni": "4./5",
+   "sestava": "maruska, jita, jajes, marketa, helltscha, zuzka, mářa, marketa H, míša, danča"
+ },
+ {
+   "turnaj": "Paganello 2008 Mix (IT)",
+   "umisteni": "16./32",
+   "sestava": "me2d, hera, dred, nahur, kawa, tomas radil (TM), jerry (TM), freza (TM), KK, Zuz (TM), Handa (TM), Janicka (FUJ), Pipi (FUJ), Zuzka (3SB)"
+ },
+ {
+   "turnaj": "Winter League 2008 Elite (AU)",
+   "umisteni": "7./12",
+   "sestava": "me2d, frankie, stepan, hera, kawa, mojza, dzarda, alexS"
+ },
+ {
+   "turnaj": "Winter League 2008 Women (AU)",
+   "umisteni": "2./12",
+   "sestava": "maruska, marketa, KK, jajes, helca, zuzka, zuzka (TM), hani (TM)"
+ },
+ {
+   "turnaj": "Liga Putim A (ČR)",
+   "umisteni": "5./12",
+   "sestava": "maruska, frankie, šaky, mathes, vítek, nahur, pavel"
+ },
+ {
+   "turnaj": "Liga Putim B (ČR)",
+   "umisteni": "6./12",
+   "sestava": "me2d, KK, alexS, zuzka, jarda, dzarda, lukasF"
+ },
+ {
+   "turnaj": "Chrást (ČR) old",
+   "umisteni": "1./12",
+   "sestava": "papa, maruska, marketa, KK, dzarda, jitka, me2d, stepanT, nahur"
+ },
+ {
+   "turnaj": "Chrást (ČR) young",
+   "umisteni": "3./12",
+   "sestava": "frankie, bobes, lukasF, mathes, mojza, zuzka, jajes, pavelU, tomasV"
+ },
+ {
+   "turnaj": "1. CEL open Trnava(SK)",
+   "umisteni": "1./16",
+   "sestava": "bobes, frankie, me2d, nahur, stepanT, pavel, mojza, saky, kacerr (ZZ), zeli (ZZ), Cupcak (TM), jerry (TM)"
+ },
+ {
+   "turnaj": "Liga Slatinice (ČR)",
+   "umisteni": "1./11",
+   "sestava": "maruska, me2d, KK, bobes, frankie, jajes, mathes, kawa, mojza, zuzka, vitek, jarda, dzarda"
+ },
+ {
+   "turnaj": "MČR Trebechovice open (ČR)",
+   "umisteni": "1./10",
+   "sestava": "bobes, me2d, frankie, lukasF, kawa, nahur, hera, pavel, mathes, pavelU, saky, jarda, dzarda"
+ },
+ {
+   "turnaj": "MČR Trebechovice woman (ČR)",
+   "umisteni": "2./5",
+   "sestava": "maruska, jajes, marketa, danca, zuzka"
+ },
+ {
+   "turnaj": "AtruCup",
+   "umisteni": "3./11",
+   "sestava": "maruska, frankie, me2d, KK, lukasF, marketa, mojza, zuzka, pavelU, dzarda"
+ },
+ {
+   "turnaj": "2. CEL Amstetten open (AU)",
+   "umisteni": "1./10",
+   "sestava": "bobes, frankie, me2d, hera, stepanT, kawa, mojza, mara (PE), jerry (TM), Kacerr (ZZ), Zeli (VM), Cupcak (ZZ), Ondra (P7), cervas (CHZ)"
+ },
+ {
+   "turnaj": "Egrensis Banana Cup open (ČR)",
+   "umisteni": "4./8",
+   "sestava": "frankie, me2d, bida, kawa, pavel, dzarda, Zazi (RV)"
+ },
+ {
+   "turnaj": "Egrensis Banana Cup women (ČR)",
+   "umisteni": "2./4",
+   "sestava": "maruska, KK, martja, Lucinka, Zuz (TM), hankaJS (TM), hankaP (TM), Hani (TM), hanke (TM), misa (FUJ)"
+ },
+ {
+   "turnaj": "Olgoj Chorchoj Trophy (ČR)",
+   "umisteni": "2./8",
+   "sestava": "maruska, KK, frankie, me2d, lukasF, martja, dzarda"
+ },
+ {
+   "turnaj": "EUCR open Norimberk(G)",
+   "umisteni": "3./15",
+   "sestava": "frankie, me2d, bobes, nahur, hera, pavel, kawa, saky, mara (PE), kacerr (ZZ), Zeli (VM), Cupcak (ZZ), Jerry (TM), Ondra (P7)"
+ },
+ {
+   "turnaj": "MČR mix Lomnice (ČR)",
+   "umisteni": "1./8",
+   "sestava": "maruska, me2d, bobes, nahur, lukasF, frankie, marketa, Lucinka, KK, jajes, hera, pavel, kawa, martja, zuzka, dzarda, martin, jeeny"
+ },
+ {
+   "turnaj": "CEL mix Slatinice (ČR)",
+   "umisteni": "2./11",
+   "sestava": "frankie, me2d, KK, martja, zuzka, hera, nahur, pavel, maruska, jajes, dzarda"
+ },
+ {
+   "turnaj": "Kimle",
+   "umisteni": "6./16",
+   "sestava": "me2d, KK, marketa, stepanT, martja, zuzka, misa, Tonda"
+ },
+ {
+   "turnaj": "EUCF open Paris (FR)",
+   "umisteni": "8./16",
+   "sestava": "bobes, frankie, me2d, nahur, hera, kawa, pavel, saky, jerry (TM), mara (PE), kacerr (ZZ), Zeli (VM), Cupcak (ZZ), Ondra (P7)"
+ },
+ {
+   "turnaj": "1. hala open",
+   "umisteni": "1./8",
+   "sestava": "me2d, hera, frankie, lukasF, martin, tonda, stepan"
+ },
+ {
+   "turnaj": "1. hala women",
+   "umisteni": "3./6",
+   "sestava": "jajes, martja, zuzka, marketa, misa, jitka"
+ }
+]
+}

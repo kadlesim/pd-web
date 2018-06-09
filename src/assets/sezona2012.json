@@ -1,0 +1,185 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "Kvalifikace Open pro B-tým (ČR)",
+   "umisteni": "11./12",
+   "sestava": "HonzaP, TomV, Jarda, Pavel, Štěpán, Zdenda, Evča"
+ },
+ {
+   "turnaj": "Bubblepest mix (HU)",
+   "umisteni": "4./8",
+   "sestava": "Méďa, Frankie, Héřa, Kawa, Honza, Ludva, Pavel, Martja, Lucka, Evča, Hanka, Iva, Efča, Zdeňka"
+ },
+ {
+   "turnaj": "Prague Winter open (ČR)",
+   "umisteni": "1./16",
+   "sestava": "Méďa, Frankie, Honza, Kawa, Mojmír, Héřa, Milan, Ludva, Ondra, Pavel, Jarda, Martin"
+ },
+ {
+   "turnaj": "Prague Winter women (ČR)",
+   "umisteni": "4./8",
+   "sestava": "Maruška, Markéta, Týna, Martja, Lucka, Zdeňka, Evča, Hanka, Iva, Efča, Květka, Síma"
+ },
+ {
+   "turnaj": "HMČR Brno open (ČR)",
+   "umisteni": "3./10",
+   "sestava": "Méďa, Frankie, Honza, Kawa, Héřa, Mojmír, Milan, Ondra, Ludva"
+ },
+ {
+   "turnaj": "HMČR Brno women A (ČR)",
+   "umisteni": "1./12",
+   "sestava": "Týna, Lucka, Maruška, Síma, Hanka, Iva, Evča, Markéta, Květka"
+ },
+ {
+   "turnaj": "HMČR Brno women B (ČR)",
+   "umisteni": "6./12",
+   "sestava": "Efča, Mirka, Lucinka, Niki, Verca, Zdeňka, Helca"
+ },
+ {
+   "turnaj": "HMČR Plzeň mixed (ČR)",
+   "umisteni": "2./10",
+   "sestava": "Frankie, Héřa, Kawa, Mojmír, Milan, Ludva, Markéta, Martja, Lucka, Iva, Hanka"
+ },
+ {
+   "turnaj": "Winter League Vídeň open/elite (A)",
+   "umisteni": "7./14",
+   "sestava": "Frankie, Stěpán, Kawa, Mojmír, Pavel, Martin, Ludva, Milan, Honza, Ivan"
+ },
+ {
+   "turnaj": "Winter League Vídeň women (A)",
+   "umisteni": "7./20",
+   "sestava": "Markéta, Martja, Mirka, Zdeňka, Evča, Hanka, Efča, Niki, Veronika, Síma"
+ },
+ {
+   "turnaj": "1. liga Humpolec open (ČR)",
+   "umisteni": "1./14",
+   "sestava": "Pavel, Jarda, Frankie, Nahur, Ondra, Kawa, Mojmír, Honza, Milan, Shucky, Štěpán, Ivan, Héřa, DrEd, Miikka"
+ },
+ {
+   "turnaj": "1. liga Humpolec women (ČR)",
+   "umisteni": "1./8",
+   "sestava": "Květka, Markéta, Martja, Zdeňka, Síma, Ivča, Helča, Efča, Evča, Lucka, Hanka"
+ },
+ {
+   "turnaj": "Chrást masters (ČR)",
+   "umisteni": "4./11",
+   "sestava": "Týna, Nahur, Dred, Maruška, Helča, Frankie, Brt, Pipi"
+ },
+ {
+   "turnaj": "Chrást (ČR)",
+   "umisteni": "5./11",
+   "sestava": "Martja, Méďa, TomV, Zdenda, Héřa, Pavel, Mikka, Ivca, Niki"
+ },
+ {
+   "turnaj": "2. liga Malšice open (ČR)",
+   "umisteni": "4./12",
+   "sestava": "Pavel, Méďa, Jarda, Papá, TomV, Dred, Héřa, Zdeněk, Honza, Ondra, Mikka, Shucky, Milan, Sob, Štěpán, Ludva, Frankie, Ivan"
+ },
+ {
+   "turnaj": "2. liga Malšice women (ČR)",
+   "umisteni": "3./7 +Spirit",
+   "sestava": "Efča, Síma, Helča, Mirka, Matja, Evča, Lucinka, Markéta, Ivča, Niki, Květka, Maruška"
+ },
+ {
+   "turnaj": "EUCQ-C Šardice open (ČR)",
+   "umisteni": "5./15",
+   "sestava": "Ludva, Méďa, Jarda, Mojmír, Pavel, Héřa, Milan, Sob, Kawa, Mikka, Ondra"
+ },
+ {
+   "turnaj": "EUCQ-C Šardice women (ČR)",
+   "umisteni": "2./9 +Spirit",
+   "sestava": "Markéta, Evča, Síma, Niki, Květka, Ivča, Efča, Lucka, Martja, Hanka"
+ },
+ {
+   "turnaj": "Fun Factory Dobřejovice mix (ČR)",
+   "umisteni": "2./13",
+   "sestava": "Evča, Méďa, Týna, Milan, Frankie, Pavel, Martja, Honza, Hanka, Lucka, Štěpán, Kawa"
+ },
+ {
+   "turnaj": "Imperial Meadow Praha mix (ČR)",
+   "umisteni": "1./10",
+   "sestava": "David, Jarda, Pavel, Shimon, Milan, Helča, Ondra, Niki, Ludva, Sob, Verča, Karel"
+ },
+ {
+   "turnaj": "MČR Prosetín open (ČR)",
+   "umisteni": "1./11",
+   "sestava": "Milan, Ludva, Pavel, Frankie, Jarda, DrEd, Ondra, Honza, shucky, Ivan, Méďa, Héřa, Kawa, Mojmír, Nahur"
+ },
+ {
+   "turnaj": "MČR Prosetín women (ČR)",
+   "umisteni": "1./6",
+   "sestava": "Martja, Heduš, Síma, Markéta, Ivča, Mirka, Lucka, Hanka, Niki, Lucinka, Helča, Veronika, Evča, Týna"
+ },
+ {
+   "turnaj": "AtruCup Losiná u Plžně mix (ČR)",
+   "umisteni": "2./12",
+   "sestava": "Ivča, Evča, Méďa, Frankie, Hanka, Pavel, Sob, Milan, Lucka, Efča, Bobešek, Markéta, Héřa"
+ },
+ {
+   "turnaj": "Banana Cup Aš open (ČR)",
+   "umisteni": "1./15",
+   "sestava": "Honza, Pavel, Kawa, Frankie, Nahur, Mojmír, Sob, Milan, Štěpán, Cvalda, Héřa, Méďa, DrEd"
+ },
+ {
+   "turnaj": "Banana Cup Aš women (ČR)",
+   "umisteni": "1./8",
+   "sestava": "Ivča, Týna, Hanka, Síma, Mirka, Efča, Veronika, Martja, Evča, Lucka, Lenka (Peaceegg), Lucka (Velká Morava)"
+ },
+ {
+   "turnaj": "EUCR-E Maribor women (SLO)",
+   "umisteni": "1./8",
+   "sestava": "Ivča, Efča, Markéta, Zdeňka, Niki, Lucka, Veronika, Síma, Květka, Týna, Bubu, Evča, Martja, Hanka, Lenka (Peaceegg), Lucka (Velká Morava)"
+ },
+ {
+   "turnaj": "WhoseBaby Praha mix (ČR)",
+   "umisteni": "2./12",
+   "sestava": "Evča, Ondra, Jarda, Pavel, Kawa, Hanka, Mojmír, Ivča, Honza, Květka, Síma, TomV, Milan, Cvalda"
+ },
+ {
+   "turnaj": "Olgoj Charchoj Plzeň mix (ČR)",
+   "umisteni": "1./8",
+   "sestava": "Kawa, Frankie, Ivča, Evča, Méďa, Héřa, Martja, Lucka, TomV, Ondra"
+ },
+ {
+   "turnaj": "MČR České Budějovice mix A-tým (ČR)",
+   "umisteni": "1./19",
+   "sestava": "Méďa, Týna, Frankie, Milan, Lucka, Hanka, Květka, Dred, Evča, Kawa, Héřa, Bobeš, Martja"
+ },
+ {
+   "turnaj": "MČR České Budějovice mix B-tým (ČR)",
+   "umisteni": "5./19",
+   "sestava": "Honza, Mojmír, Bubu, Ondra, Jarda, Maruška, Nahůr, TomV, Pavel, Niki, Markéta, Ála, Efča"
+ },
+ {
+   "turnaj": "EUCF Frankfurt women (D)",
+   "umisteni": "10./10",
+   "sestava": "Hanka, Týna, Martja, Niki, Evča, Lucka, Efča, Markéta, Zdeňka, Veronika, Síma, Květka, Bubu, Ivča, Lenka (Peaceegg), Lucka (Velká Morava)"
+ },
+ {
+   "turnaj": "O sladkou trubku Praha easy-mix (ČR)",
+   "umisteni": "2./5",
+   "sestava": "Milan, Niki, Cvalda, Bubu, Ondra, Sob, Vítek, Alius"
+ },
+ {
+   "turnaj": "První hala Praha open (Cz)",
+   "umisteni": "2./10",
+   "sestava": "Pavel, Kawa, Mojmír, Méďa, Ondra, TomV, Honza, Sob, Milan, Martin, Štěpán"
+ },
+ {
+   "turnaj": "První hala Praha women (Cz)",
+   "umisteni": "4./10",
+   "sestava": "Martja, Evča, Hanka, Efčaa, Lucka, Niki, Bubu, Veronika , Ivča, Ála"
+ },
+ {
+   "turnaj": "WinterCEL Gyor open (Hu)",
+   "umisteni": "3./8",
+   "sestava": "Mojmír, Milan, Jarda, Kubajs, Luky (SK)"
+ },
+ {
+   "turnaj": "Kvalifikace HMČR Hradec Králové mix (Cz)",
+   "umisteni": "15./16",
+   "sestava": "Tom V, Ondra, Síma, Mojmír, Sob, Ála, Lucinka, Veronika, Cvalda"
+ }
+]
+}

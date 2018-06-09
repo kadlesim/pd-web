@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import {EventsService} from '../evetnts/events.service';
-import {ActivatedRoute} from '@angular/router';
+import {Component, OnInit} from '@angular/core';
 import {BlogService} from './blog.service';
+import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
+import {Observable} from "rxjs/Observable";
+import {FirebaseListObservable} from "angularfire2/database-deprecated";
+import {Blog} from "./blog";
 
 @Component({
   selector: 'app-blog',
@@ -9,34 +11,25 @@ import {BlogService} from './blog.service';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
+  postsLoaded: boolean;
 
-  news: any;
+  posts: any;
   data: any;
 
-  newsLoaded: boolean;
+  constructor(private blogService: BlogService, private db: AngularFireDatabase) {
 
-  constructor(private blogService: BlogService) { }
-
-  ngOnInit() {
-    this.newsLoaded = true;
   }
 
+  ngOnInit() {
+    this.blogService.getPosts()
+      .subscribe(data => this.posts = {
+        data: data['data']
+      }.data);
+    console.log('showPosts');
+  }
 
-//todo udelat "staticky" - z tymu natahat do firebase db
-  //to same s historii
-  showNews() {
-    if (this.newsLoaded) {
-      // console.log(this.blogService.getNews());
-      this.blogService.getNews()
-        .subscribe(data => this.data = {
-          data: data
-        });
-      console.dir(this.data);
-      this.newsLoaded = false;
-    }
-    console.log('showNews');
-    console.log(this.data);
-    // this.news = this.data.data;
+  showPosts() {
+    console.log(this.posts);
     return true;
   }
 

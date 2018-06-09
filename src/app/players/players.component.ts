@@ -15,20 +15,17 @@ export class PlayersComponent implements OnInit {
   constructor(private playersService: PlayersService) { }
 
   ngOnInit() {
-    this.playersLoaded = true;
+    this.playersService.getPlayers()
+      .subscribe(data => this.players = {
+        data: data['data']
+      }.data);
+    console.log('shoePlayers');
   }
 
+
+
   showPlayers() {
-    if (this.playersLoaded) {
-      this.playersService.getPlayers()
-        .subscribe(data => this.data = {
-          data: data['data']
-        });
-      this.playersLoaded = false;
-    }
-    console.log('showPlayers');
-    console.log(this.data.data);
-    this.players = this.data.data;
+    console.log(this.players);
     return true;
   }
 

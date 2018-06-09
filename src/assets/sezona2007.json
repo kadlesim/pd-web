@@ -1,0 +1,120 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "HMČR Chomutov open A (ČR)",
+   "umisteni": "1./9",
+   "sestava": "bobes, me2d, dred, lukasF, frankie, hera, lukasK, KK"
+ },
+ {
+   "turnaj": "HMČR Chomutov open B (ČR)",
+   "umisteni": "5./9",
+   "sestava": "papa, bida, mates, mojza, jajes, stepan, vitek, pavel"
+ },
+ {
+   "turnaj": "HMČR Chomutov woman (ČR)",
+   "umisteni": "1./6",
+   "sestava": "maruska, jita, lucinka, KK, jajes, marketa, helltscha"
+ },
+ {
+   "turnaj": "Plážák v hamrsportu",
+   "umisteni": "3./9",
+   "sestava": "KK, helltscha, pipi, me2d, pavel, lukášK, DrED, tomáš"
+ },
+ {
+   "turnaj": "1. Opičárna",
+   "umisteni": "2./8",
+   "sestava": "frankie, pavel, mojža, tomáš, martja, zuzka, filip"
+ },
+ {
+   "turnaj": "FrisBeerCup 2007 (ČR)",
+   "umisteni": "1./12",
+   "sestava": "bobes, me2d, dred, lukasF, papá, frankie, hera, mojža, KK"
+ },
+ {
+   "turnaj": "HMČR Liberec mixed (ČR)",
+   "umisteni": "2./12",
+   "sestava": "me2d, lukasF, frankie, hera, lukasK, KK, jájes, martja, lucinka"
+ },
+ {
+   "turnaj": "Žlutá Ponorka 2007",
+   "umisteni": "1./12",
+   "sestava": "me2d, bobes, frankie, mathes, stepan, KK, jájes"
+ },
+ {
+   "turnaj": "Winterleague 2007 Pro (A)",
+   "umisteni": "5./8",
+   "sestava": "dred, lukasF, lukasK, frankie, pavel, alex"
+ },
+ {
+   "turnaj": "1. ligový turnaj PD A, Písek (ČR)",
+   "umisteni": "2./10",
+   "sestava": "me2d, lukasF, mojza, alex, jajes, lada, shucky, bobes"
+ },
+ {
+   "turnaj": "1. ligový turnaj PD B, Písek (ČR)",
+   "umisteni": "6./10",
+   "sestava": "dred, frankie, ales, lukasK, mara, tyna, kuba, martina"
+ },
+ {
+   "turnaj": "Chrast 2007 (ČR)",
+   "umisteni": "7./12",
+   "sestava": "papá, maruška, jíťa, markéta, štěpán, croc, helltscha, kristýna, mathes, zuzka, kuba"
+ },
+ {
+   "turnaj": "1. CEL (A)",
+   "umisteni": "7./14",
+   "sestava": "dred, lukasF, lukasK, frankie, mezo, me2d, mojža, KK, davídek (3SB)"
+ },
+ {
+   "turnaj": "Rotterdam 2007 (NE)",
+   "umisteni": "8./17",
+   "sestava": "dred, lukasF, lukasK, frankie, nahur, mezo, stepan, davídek (3SB), tomas radil (TM), jerry (TM), jiri (ŽZ)"
+ },
+ {
+   "turnaj": "2. ligový turnaj, Grygov (ČR)",
+   "umisteni": "2./11",
+   "sestava": "me2d, lukasF, bobes, alex, jajes, lukasK, frankie, hera, nahur, marketa, KK, pavel"
+ },
+ {
+   "turnaj": "MČR Třebechov pod Orebem open (ČR)",
+   "umisteni": "1./8",
+   "sestava": "bobes, me2d, dred, lukasF, frankie, hera, lukasK, mezo, nahur, shucky, stepan, mara, alex, vitek, pavel, pavelU"
+ },
+ {
+   "turnaj": "MČR Třebechov pod Orebem woman (ČR)",
+   "umisteni": "1./6",
+   "sestava": "maruska, jita, lucinka, KK, jajes, martja"
+ },
+ {
+   "turnaj": "CEL FINALS (SK)",
+   "umisteni": "4./8",
+   "sestava": "dred, lukasK, frankie, me2d, shucky, vítek, tomáš radil (TM), kačer (ŽZ), jerry (TM)"
+ },
+ {
+   "turnaj": "AtrucCUP 2007(ČR)",
+   "umisteni": "1./10",
+   "sestava": "dred, bobes, frankie, me2d, lukasF, pavel, jarda, džarda, tyna, markéta, zuzka"
+ },
+ {
+   "turnaj": "EUCS 2007 (DE)",
+   "umisteni": "6./16",
+   "sestava": "dred, bobes, lukasK, lukasF, mára, hera, pavel, frankie, me2d, shucky, tomáš radil (TM), kačer (ŽZ), jirka (ŽZ)"
+ },
+ {
+   "turnaj": "MČR České Budějovice mixed (ČR)",
+   "umisteni": "1./8",
+   "sestava": "bobes, lukasK, lukasF, mára, hera, alex, frankie, me2d, KK, jajes, maruska, marketa, zuzka, martja"
+ },
+ {
+   "turnaj": "CEL Mixed - Slatinice",
+   "umisteni": "4./12",
+   "sestava": "dred, lukasK, frankie, mathes, mojza, alex, dzarda, doug, josh, helltscha, martja, zuzka, mářa"
+ },
+ {
+   "turnaj": "Kimle (HU)",
+   "umisteni": "4./8",
+   "sestava": "dred, lukasK, lukasF, me2d, frankie, pavel, stepan, dzarda, KK, helltscha, martja, zuzka, evex (Atruc)"
+ }
+]
+}

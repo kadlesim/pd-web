@@ -18,40 +18,17 @@ export class EvetntsComponent  implements OnInit {
   constructor(private eventService: EventsService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.eventsLoaded = true;
-    // this.route.data
-    //   .subscribe(data => this.data = {
-    //     data: data['data']
-    //   });
+    this.eventService.getEvents()
+      .subscribe(data => this.events = {
+        data: data['data']
+      }.data);
+    console.log('showEvents');
   }
 
 
 
   showEvents() {
-    if (this.eventsLoaded) {
-      this.eventService.getEvents()
-        .subscribe(data => this.data = {
-          data: data['data']
-        });
-      this.eventsLoaded = false;
-    }
-    console.log('showEvents');
-    console.log(this.data.data);
-    this.events = this.data.data;
+    console.log(this.events);
     return true;
   }
-
-  //
-  // load(): void {
-  //   // // console.log(this.dataE);
-  //   // // log('' + this.events[0]);
-  //   // this.showEvents();
-  //   // this.events = this.data.data;
-  //   //
-  //   // console.log('sem tu');
-  //   // console.log(this.data.data);
-  //   //
-  //   // console.log(this.events[0].caption);
-  // }
-
 }

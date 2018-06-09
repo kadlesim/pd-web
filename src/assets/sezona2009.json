@@ -1,0 +1,130 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "HMČR Chomutov mix A (ČR)",
+   "umisteni": "1./13",
+   "sestava": "bobeš, me2d, frankie, héřa, kawa, tonda, KK, maruška, jájes, martja, zuzka"
+ },
+ {
+   "turnaj": "HMČR Chomutov mix ČVUT (ČR)",
+   "umisteni": "11./13",
+   "sestava": "martin, mojža, džarda, pavel U, efka, lucka, lucinka, iva, hanka, zdeňka"
+ },
+ {
+   "turnaj": "HMČR Brno Open (ČR)",
+   "umisteni": "1./14",
+   "sestava": "bobeš, me2d, frankie, héřa, kawa, tonda, martin, DrEd, lukáš, štěpán"
+ },
+ {
+   "turnaj": "HMČR Brno Women (ČR)",
+   "umisteni": "2./8",
+   "sestava": "KK, jájes, maruška, jíťa, markéta, martja, zuzka"
+ },
+ {
+   "turnaj": "HMČR Brno Women ČVUT (ČR)",
+   "umisteni": "8./8",
+   "sestava": "lucinka, helltscha, lucka, hanka, ivča, marta, sabina"
+ },
+ {
+   "turnaj": "Yellow submarine Plzeň (ČR)",
+   "umisteni": "9./24",
+   "sestava": "me2d, lukáš, markéta, KK, štěpán, kawa, zuzka, pavelU, džarda, martin"
+ },
+ {
+   "turnaj": "Opičárna Praha ČVUT (ČR)",
+   "umisteni": "5./10",
+   "sestava": "mojža, tomášV, danča, džarda, martin, hanka, ivča, sabina, marta, eva"
+ },
+ {
+   "turnaj": "Winter League open Vídeň (AT)",
+   "umisteni": "8./15",
+   "sestava": "me2d, KK, frankie, héřa, mojža, martin, džarda"
+ },
+ {
+   "turnaj": "Liga Putim A (ČR)",
+   "umisteni": "3./16",
+   "sestava": "bobeš, me2d, kawa, jájes, šaky, štěpán, vítek, iva, efčaa"
+ },
+ {
+   "turnaj": "Liga Putim B (ČR)",
+   "umisteni": "5./16",
+   "sestava": "KK, frankie, héřa, mojža, DrEd, martin, mathes, džarda, efka, lucka"
+ },
+ {
+   "turnaj": "Chrást Masters (ČR)",
+   "umisteni": "1./16",
+   "sestava": "me2d, DrEd, bíďa, maruška, KK, héřa, nahur, šaky, brt, markéta"
+ },
+ {
+   "turnaj": "Chrást Juniors (ČR)",
+   "umisteni": "3./16",
+   "sestava": "bobeš, jájes, frankie, mathes, vítek, zuzka, tomV, džarda, hanka, jenda, efčaa, helltscha"
+ },
+ {
+   "turnaj": "Liga Odry A (ČR)",
+   "umisteni": "1./13",
+   "sestava": "me2d, KK, frankie, DrED, kawa, zuzka, vítek, martin, iva"
+ },
+ {
+   "turnaj": "Liga Odry B (ČR)",
+   "umisteni": "4./13",
+   "sestava": "bobeš, héřa, helltscha, croc, pavelU, tomV, džarda, lucka, hroch, sabina"
+ },
+ {
+   "turnaj": "MČR open Třebechovice (ČR)",
+   "umisteni": "1./9",
+   "sestava": "bobeš, héřa, me2d, frankie, kawa, šaky, martin, mathes, vítek, pavelU, croc, hroch, džarda"
+ },
+ {
+   "turnaj": "MČR women Třebechovice (ČR)",
+   "umisteni": "2./6",
+   "sestava": "KK, jájes, zuzka, martja, efka, iva, lucka, efčaa, sabina, lucinka"
+ },
+ {
+   "turnaj": "ATRUCup Plzeň (ČR)",
+   "umisteni": "3./9",
+   "sestava": "me2d, DrEd, frankie, KK, helltscha, zuzka, pavelU, tomV, džarda, lucka, hroch, efka, hanka, sabina"
+ },
+ {
+   "turnaj": "Olgoj Chorchoj Plzeň (ČR)",
+   "umisteni": "5./8",
+   "sestava": "me2d, KK, lucinka, héřa, martja, pavelU, tomV, džarda, martin, efka"
+ },
+ {
+   "turnaj": "MČR mix Jičín A (ČR)",
+   "umisteni": "1./10",
+   "sestava": "me2d, KK, bobeš, jájes, frankie, héřa, kawa, džarda, martja, zuzka, zdeňka, lucka"
+ },
+ {
+   "turnaj": "MČR mix Jičín B (ČR)",
+   "umisteni": "7./10",
+   "sestava": "mojža, martin, nahur, lucinka, tomV, hroch, efka, iva, sabina, jenda, efča"
+ },
+ {
+   "turnaj": "XEUCF Londýn (v Silence) (GB)",
+   "umisteni": "13./38",
+   "sestava": "bobeš, frankie, me2d, héřa, kawa, DrEd, hroch"
+ },
+ {
+   "turnaj": "Kimle (HU)",
+   "umisteni": "2./12",
+   "sestava": "me2d, frankie, kawa, héřa, zuzka, efka, lucka, sabina, džarda, tomV, nahur, hroch"
+ },
+ {
+   "turnaj": "První hala A (CZ)",
+   "umisteni": "3./10",
+   "sestava": "me2d, kawa, héřa, hroch, mojža, martin, džarda"
+ },
+ {
+   "turnaj": "První hala B (CZ)",
+   "umisteni": "4./10",
+   "sestava": "bobeš, frankie, papá, pavel, pavelU, franta, jenda"
+ },
+ {
+   "turnaj": "První hala women (CZ)",
+   "umisteni": "6./6",
+   "sestava": "zuzka, martja, merkéta, evča, iva, lucka, sabina, mirka"
+ }
+]
+}

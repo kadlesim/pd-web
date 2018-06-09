@@ -1,0 +1,100 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "HMČR Chomutov mix A (ČR)",
+   "umisteni": "2./10",
+   "sestava": "bobeš, me2d, frankie, héřa, kawa, martin, hroch KK, jájes, zuzka, lucka"
+ },
+ {
+   "turnaj": "HMČR Chomutov mix B (ČR)",
+   "umisteni": "10./10",
+   "sestava": "nahur, mojža, džarda, pavel, pavelU, tomV, jenda, efka, lucinka, ivča, efča"
+ },
+ {
+   "turnaj": "HMČR Brno Open A (ČR)",
+   "umisteni": "1./14",
+   "sestava": "bobeš, me2d, frankie, héřa, kawa, martin, DrEd, hroch, mojža"
+ },
+ {
+   "turnaj": "HMČR Brno Open B (ČR)",
+   "umisteni": "14./14",
+   "sestava": "šimon, džarda, tomV, pavelU, jenda"
+ },
+ {
+   "turnaj": "HMČR Brno Women (ČR)",
+   "umisteni": "5./8",
+   "sestava": "KK, jájes, jíťa, markéta, zuzka, ivča, efka, lucka, lucinka"
+ },
+ {
+   "turnaj": "Yellow submarine Plzeň (ČR)",
+   "umisteni": "20./24",
+   "sestava": "frankie, héřa, kawa, džarda, pavelU, lucka, ivča, zdeňka, efka, evča"
+ },
+ {
+   "turnaj": "FrisbeerCup Praha (ČR)",
+   "umisteni": "2./12",
+   "sestava": "me2d, kawa, héřa, mojža, martin, hroch, jenda, džarda, KK, ivča, evča"
+ },
+ {
+   "turnaj": "1. liga Malšice A (ČR)",
+   "umisteni": "1./12",
+   "sestava": "nahur, DrEd, frankie, héřa, kawa, mojža, šaky, šimon, KK, jájes, zuzka, lucka"
+ },
+ {
+   "turnaj": "1. liga Malšice B (ČR)",
+   "umisteni": "9./12",
+   "sestava": "bobeš, me2d, martin, pavelU, tomV, ludvík, džarda, ivča, efka, zdeňka, helltscha"
+ },
+ {
+   "turnaj": "Chrást masters (ČR)",
+   "umisteni": "2./12",
+   "sestava": "bobeš, me2d, nahur, DrEd, lukáš, bíďa, KK, héřa"
+ },
+ {
+   "turnaj": "Chrást juniors (ČR)",
+   "umisteni": "3./12",
+   "sestava": "frankie, jájes, helltscha, mojža, zuzka, tomV, džarda, martin, hroch, ivča, jenda, šimon, ludva"
+ },
+ {
+   "turnaj": "2. liga Písek A (ČR)",
+   "umisteni": "6./12",
+   "sestava": "me2d, frankie, DrEd, KK, kawa, mojža, šaky, šimon, jenda"
+ },
+ {
+   "turnaj": "2. liga Písek B (ČR)",
+   "umisteni": "9./12",
+   "sestava": "bobeš, lucinka, héřa, pavelU, tomV, lucka, zdeňka, ivča, evča, džarda"
+ },
+ {
+   "turnaj": "MČR open Třebechovice (ČR)",
+   "umisteni": "1./9",
+   "sestava": "me2d, nahur, DrEd, frankie, héřa, kawa, mojža, pavelU, šaky, džarda, martin, jenda, šimon, ludva"
+ },
+ {
+   "turnaj": "MČR women Třebechovice (ČR)",
+   "umisteni": "2./7",
+   "sestava": "KK, jájes, markéta, lucinka, zuzka, lucka, zdeňka, ivča, evča"
+ },
+ {
+   "turnaj": "AtruCup (ČR)",
+   "umisteni": "2./12",
+   "sestava": "me2d, frankie, KK, héřa, tomV, džarda, hroch, zdeňka, efka, ivča, ludva, ondra, květa, lukášH"
+ },
+ {
+   "turnaj": "Olgoj Chorchoj Plzeň (ČR)",
+   "umisteni": "4./8",
+   "sestava": "me2d, KK, tomV, džarda, lucka, martin, mirka, ivča, efča, lukášH"
+ },
+ {
+   "turnaj": "MČR mix Litovel A (ČR)",
+   "umisteni": "2./12",
+   "sestava": "me2d, KK, frankie, bobeš, markéta, héřa, kawa, martja, lucka, martin, zdeňka, ivča, šimon, DrEd"
+ },
+ {
+   "turnaj": "MČR mix Litovel B (ČR)",
+   "umisteni": "11./12",
+   "sestava": "nahur, lucinka, pavelU, tomV, džarda, efka, hanka, jenda, efča, květa, lukášH, karen, orion"
+ }
+]
+}

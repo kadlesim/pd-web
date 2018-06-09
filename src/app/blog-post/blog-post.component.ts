@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Blog} from "../blog/blog";
+import {ActivatedRoute} from "@angular/router";
+import {BlogPostService} from "./blog-post.service";
+import {forEach} from "@angular/router/src/utils/collection";
 
 @Component({
   selector: 'app-blog-post',
@@ -7,9 +11,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogPostComponent implements OnInit {
 
-  constructor() { }
+  posts: any;
+  post: any;
+  path: any;
 
-  ngOnInit() {
+  constructor(private route: ActivatedRoute, private postService: BlogPostService) {
   }
 
+  ngOnInit() {
+    this.path = this.route.snapshot.params['id'];
+    this.postService.getPost().subscribe(posts => this.post = {
+      data: posts['data']
+    }.data[this.path]);
+    console.log('showPost');
+  }
+
+  showPost() {
+    console.log(this.post);
+    return true;
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "status" : "OK",
+  "data" : [
+ {
+   "turnaj": "Partie Králů Hradec Králové (ČR)",
+   "umisteni": "3./10",
+   "sestava": "Kawa, Elvíra, Frankie, Zuzka, Kubajs, Heduš, Hanka, Honza, Vítek, Milan, Lucka, Ajva, Héřa"
+ },
+ {
+   "turnaj": "HMČR Plzeň mix A-tým, 1.liga (ČR)",
+   "umisteni": "1./10",
+   "sestava": "Honza, Frk, Hera, Kawa, Milan, Slava, Vita, Lucka, Hanka, Ivča, Květka, Zuzka, Káťa"
+ },
+ {
+   "turnaj": "HMČR Plzeň mix B-tým, 2.liga (ČR)",
+   "umisteni": "6./12",
+   "sestava": "Ondra, Cvalda, Kubajs, Šimon, José, Pavel, TomV, Martja, Zdeňka, Bubu, Karča, Blanka, Mazlik"
+ }
+]
+}

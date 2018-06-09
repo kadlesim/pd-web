@@ -1,13 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AngularFireModule } from 'angularfire2';
+import { environment } from '../environments/environment';
+import { AngularFireDatabaseModule} from "angularfire2/database";
 
 import { AppComponent } from './app.component';
-import {HttpClientModule} from '@angular/common/http';
-import {EventsService} from './evetnts/events.service';
-import {PlayersService} from './players/players.service';
-import {BlogService} from './blog/blog.service';
-import {BlogPostService} from "./blog-post/blog-post.service";
+import { HttpClientModule } from '@angular/common/http';
+import { EventsService } from './evetnts/events.service';
+import { PlayersService } from './players/players.service';
+import { BlogService } from './blog/blog.service';
+import { BlogPostService } from "./blog-post/blog-post.service";
+import { ResultsService } from "./results/results.service";
 import { PlayersComponent } from './players/players.component';
 import { EvetntsComponent } from './evetnts/evetnts.component';
 import { MediaComponent } from './media/media.component';
@@ -30,12 +34,22 @@ const appRoutes: Routes = [
   },
   {
     path: 'blog',
-    component: BlogComponent
+    children: [
+      {
+        path: '',
+        component: BlogComponent
+      },
+      {
+        path: 'blog-post/:id',
+        component: BlogPostComponent
+      }
+    ]
+    // component: BlogComponent
   },
-  {
-    path: 'blog-post:path',
-    component: BlogPostComponent
-  },
+  // {
+  //   path: 'blog-post/:path',
+  //   component: BlogPostComponent
+  // },
   {
     path: 'players',
     component: PlayersComponent
@@ -100,6 +114,8 @@ const appRoutes: Routes = [
       appRoutes,
       // { enableTracing: true } // <-- debugging purposes only
     ),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule
     // Md5
   ],
   providers: [
@@ -107,7 +123,8 @@ const appRoutes: Routes = [
     EventsResolver,
     PlayersService,
     BlogService,
-    BlogPostService
+    BlogPostService,
+    ResultsService
   ],
   bootstrap: [
     AppComponent
