@@ -1,12 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
-import { AngularFireDatabaseModule} from "angularfire2/database";
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import {Angular2ImageGalleryModule} from "angular2-image-gallery";
 import { EventsService } from './evetnts/events.service';
 import { PlayersService } from './players/players.service';
 import { BlogService } from './blog/blog.service';
@@ -114,8 +113,7 @@ const appRoutes: Routes = [
       appRoutes,
       // { enableTracing: true } // <-- debugging purposes only
     ),
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    Angular2ImageGalleryModule
     // Md5
   ],
   providers: [

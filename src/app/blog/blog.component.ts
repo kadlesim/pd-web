@@ -1,8 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {BlogService} from './blog.service';
-import {AngularFireDatabase, AngularFireList} from "angularfire2/database";
 import {Observable} from "rxjs/Observable";
-import {FirebaseListObservable} from "angularfire2/database-deprecated";
 import {Blog} from "./blog";
 
 @Component({
@@ -16,7 +14,7 @@ export class BlogComponent implements OnInit {
   posts: any;
   data: any;
 
-  constructor(private blogService: BlogService, private db: AngularFireDatabase) {
+  constructor(private blogService: BlogService) {
 
   }
 
