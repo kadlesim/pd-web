@@ -1,7 +1,7 @@
 <section>
   <div id="div-posts" *ngIf="showPosts()">
     <article id="post" *ngFor="let post of posts">
-      <a [routerLink]="['./blog-post', post.id]">
+      <a [routerLink]="['/blog-post', post.title, post.image, post.text]">
         <h2>{{post.title}}</h2>
         <img id="post-img" src="{{post.image}}">
         <article id="post-text">{{post.text | slice: 0:500}}...</article>

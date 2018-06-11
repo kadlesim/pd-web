@@ -48,6 +48,10 @@ const appRoutes: Routes = [
     ]
   },
   {
+    path: 'blog-post/:title/:image/:text',
+    component: BlogPostComponent
+  },
+  {
     path: 'players',
     component: PlayersComponent
   },
