@@ -7,6 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Intalace
 Nainstalovat nodejs -> npm install -> ng serve -> http://localhost:4200/
 
+### Testovaci login udaje
+  jmeno: 'test'
+  password: 'test123456'
+
 ## TODO
  - najit hosting, ktery zvladne volani api s http (firebase - Blocked loading mixed active content, kvuli https)
  - zprovoznit backend pro upravu prispevku blogu
