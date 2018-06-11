@@ -7,7 +7,7 @@ section{
   background-image: url("../../assets/fotky/backgroung002.jpg");
   text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: 360px;
+  height: 460px;
   float: right;
 }
 #nadpis-h1{
@@ -42,12 +42,12 @@ ul > h1 {
   margin-bottom: 20px;
 }
 
-div#history{
+#history{
   padding-left: 4%;
   padding-right: 6%;
-  margin-top: 360px;
+  margin-top: 460px;
   background-size: cover;
-  background: url("../../assets/fotky/backgroung001.jpg") repeat-y;
+  background: url("../../assets/fotky/backgroung001.jpg") repeat;
 }
 table{
   padding-left: 4%;

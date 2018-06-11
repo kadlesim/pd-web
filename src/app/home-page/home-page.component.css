@@ -1,5 +1,5 @@
 section{
-margin-bottom: 150vh;
+/*margin-bottom: 150vh;*/
 }
 
 @keyframes example {
@@ -15,13 +15,14 @@ margin-bottom: 150vh;
   text-align: justify;
   /*background-image: url("../../assets/fotky/backgroung001.jpg");*/
   background-size: cover;
-  height: 75vh;
+  /*height: 75vh;*/
   animation-name: example;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 10%;
 }
 
 #nadpis-div{
