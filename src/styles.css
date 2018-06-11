@@ -3,8 +3,63 @@
   font-family: Roboto;
   src: url("https://fonts.googleapis.com/css?family=Roboto");
 }
-html{
-  font-family: "Roboto Light", sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
+/* HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary  { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden] { display: none; }
+
+
+/* HTML & BODY */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: white}
+html, button, input, select, textarea { font-family: "Roboto Light", sans-serif; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+
+/* Embedded Content */
+/*img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }*/
+svg:not(:root) { overflow: hidden; }
+
+/* Tables */
+/*table { border-collapse: collapse; border-spacing: 0; }*/
+/*td { vertical-align: top; }*/
+
+
+/* Absolute Positioning */
+div, article, section, header, footer, nav, figure, li { position: relative; }
+
+
+/* Selection  */
+/*::-moz-selection { background: #77cce9; color: #fff; text-shadow: none; }*/
+/*::selection { background: #77cce9; color: #fff; text-shadow: none; }*/
+
+
+
+/* Border-Box */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* Image replacement */
+/*.ir { background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px; }*/
+/*.ir:before { content: ""; display: block; width: 0; height: 100%; }*/
+
+/*LAYOUT*/
+
+body { background: #000000; margin: 0 auto; position: relative; box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); }
+
+article,
+section,
+nav,
+header,
+aside,
+footer { width: 100%; float: left; }
+
+/*.wrapper { max-width: 1200px; margin: 0 auto; padding: 0 5%; position: relative; height: 100%; }*/
+
+
+/*img { display: block; max-width: 100%; }*/
+
+
+/*section .wrapper > h3 { font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 1.25em; padding: 0 0 30px 0; margin: 0 0 40px 0; text-align: center; line-height: 1em; }*/
+

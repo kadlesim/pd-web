@@ -1,9 +1,10 @@
-<p>
-  blog-post works!
-</p>
 
-<div *ngIf="showPost()">
-  <h2>{{post.title}}</h2>
-  <img src="{{post.image}}">
-  <article>{{post.text}}...</article>
-</div>
+<section>
+  <article id="post">
+    <div *ngIf="showPost()">
+      <h1>{{post.title}}</h1>
+      <img id="post-img" src="{{post.image}}">
+      <article id="post-text">{{post.text}}</article>
+    </div>
+  </article>
+</section>

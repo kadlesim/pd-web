@@ -1,19 +1,23 @@
-<p>
-  media works!
-</p>
 
 <!--vice fotek bude az bude opravdovy server -- hlavne vsechna historie :D -->
 <!--https://www.npmjs.com/package/angular2-image-gallery-->
-<h1>PD vecirek 2017</h1>
-<gallery
-  [flexBorderSize]="3"
-  [flexImageSize]="7"
-  [galleryName]="'pd-vecirek-2017'">
-</gallery>
 
-<h1>historie</h1>
-<gallery
-  [flexBorderSize]="3"
-  [flexImageSize]="7"
-  [galleryName]="'historie'">
-</gallery>
+
+<section>
+  <div id="nadpis1"><h1 (click)="showPDVecirek2017()" id="nadpisPD">PD vecirek 2017</h1></div>
+  <div id="nadpis2"><h1 (click)="showHistory()" id="nadpisHistorie">Historie</h1></div>
+
+  <h2 *ngIf="pd">PD večírek 2017</h2>
+  <gallery id="pd-vecirek-2017" *ngIf="pd"
+           [flexBorderSize]="3"
+           [flexImageSize]="7"
+           [galleryName]="'pd-vecirek-2017'">
+  </gallery>
+
+  <h2 *ngIf="history">Historie PD</h2>
+  <gallery id="historie" *ngIf="history"
+           [flexBorderSize]="3"
+           [flexImageSize]="7"
+           [galleryName]="'historie'">
+  </gallery>
+</section>

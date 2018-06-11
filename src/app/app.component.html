@@ -1,25 +1,39 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <header class="app-header">
-  <img class="pd-logo" width="100" alt="PD Logo" src="./assets/bwlogo.svg">
-  <nav class="nav-bar">
-    <ul>
-      <li><a routerLink="home-page" routerLinkActive="active">Home</a></li>
-      <li><a routerLink="events" routerLinkActive="active">Events</a></li>
-      <li><a routerLink="players" routerLinkActive="active">Team</a></li>
-      <li><a routerLink="results" routerLinkActive="active">Results</a></li>
-      <li><a routerLink="blog" routerLinkActive="active">Blog</a></li>
-      <li><a routerLink="media" routerLinkActive="active">Media</a></li>
-      <li><a routerLink="login" routerLinkActive="active">Sign In</a></li>
-    </ul>
-  </nav>
+  <div class="wrapper">
+
+    <div id="logo">
+      <a routerLink="">
+        <img class="pd-logo" width="150px"  alt="PD Logo" src="./assets/bwLogo.png">
+      </a>
+    </div>
+
+    <div id="nav-div">
+      <nav>
+        <ul>
+          <li><a routerLink="" routerLinkActive="active"
+                 [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+          <li><a routerLink="events" routerLinkActive="active">Events</a></li>
+          <li><a routerLink="players" routerLinkActive="active">Team</a></li>
+          <li><a routerLink="results" routerLinkActive="active">Results</a></li>
+          <li><a routerLink="blog" routerLinkActive="active">Blog</a></li>
+          <li><a routerLink="media" routerLinkActive="active">Media</a></li>
+          <li>
+            <a routerLink="login" routerLinkActive="active" *ngIf="!(isLoggedIn$ | async)">Sign In</a>
+            <a routerLink="login" routerLinkActive="active" *ngIf="(isLoggedIn$ | async)">Sign Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
 </header>
 
 <router-outlet></router-outlet>
 
 <footer class="app-footer">
-  Some copyright info or perhaps some author
-  info for an &lt;article&gt;?
+  neco
 </footer>
 
 

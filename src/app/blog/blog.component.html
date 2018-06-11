@@ -1,14 +1,11 @@
-<p>
-  blog works!123
-</p>
-
-
-<ul *ngIf="showPosts()">
-  <li *ngFor="let post of posts">
-    <a [routerLink]="['./blog-post', post.id]">
-      <h2>{{post.title}}</h2>
-      <img src="{{post.image}}">
-      <article>{{post.text | slice: 0:500}}...</article>
-    </a>
-  </li>
-</ul>
+<section>
+  <div id="div-posts" *ngIf="showPosts()">
+    <article id="post" *ngFor="let post of posts">
+      <a [routerLink]="['./blog-post', post.id]">
+        <h2>{{post.title}}</h2>
+        <img id="post-img" src="{{post.image}}">
+        <article id="post-text">{{post.text | slice: 0:500}}...</article>
+      </a>
+    </article>
+  </div>
+</section>

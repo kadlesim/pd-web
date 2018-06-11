@@ -1,0 +1,17 @@
+article#post-text{
+  text-align: justify;
+}
+
+article#post{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+img#post-img{
+  margin-bottom: 5%;
+  width:100%;
+  height:100%;
+}
+
+h1{
+  font-size: 2.1em;
+}

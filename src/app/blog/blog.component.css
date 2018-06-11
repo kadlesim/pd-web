@@ -1,0 +1,23 @@
+
+div#div-posts{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+img#post-img{
+  margin-bottom: 5%;
+  width:100%;
+  height:100%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+article#post{
+  margin-bottom: 5%;
+}
+
+article#post-text{
+  text-align: justify;
+}

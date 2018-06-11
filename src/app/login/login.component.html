@@ -1,22 +1,53 @@
-<p>
-  login works!
-</p>
+<!--<p>-->
+  <!--login works!-->
+<!--</p>-->
 
+<section>
+  <div *ngIf="!(isLoggedIn$ | async)">
 
-<div class="container">
-  <h1>Login Form</h1>
-  <form>
-    <div class="form-group">
-      <label for="name">Jmeno</label>
-      <input type="text" class="form-control" id="name" required>
+    <div class="warning">! Pro zalozku media potrebujete byt prihlaseni (po prihlaseni budete presmerovani) !</div>
+
+    <!--<h1>Login Form</h1>-->
+    <div class="container">
+      <form #form="ngForm" (submit)="login(form)">
+        <div class="cube-container">
+          <div class="cube">
+            <figure class="front">
+              <div class="form-group">
+                <input type="text" id="username" placeholder="jmeno" name="username" ngModel="" required>
+              </div>
+            </figure>
+            <figure class="back"></figure>
+            <figure class="right">
+              <div class="form-group">
+                <input type="password" id="password" placeholder="heslo" name="password" ngModel="" required>
+              </div>
+            </figure>
+            <figure class="left">
+              <button type="submit" class="btn-login">Prihlasit</button><!--(click)="login()"-->
+            </figure>
+            <figure class="top"></figure>
+            <figure class="bottom"></figure>
+          </div>
+        </div>
+      </form>
     </div>
+  </div>
 
-    <div class="form-group">
-      <label for="password">Heslo</label>
-      <input type="password" class="form-control" id="password" required>
+  <div *ngIf="(isLoggedIn$ | async)">
+
+    <!--<h1>Login Form</h1>-->
+    <div class="container">
+      <div class="cube-container">
+        <div class="cube">
+          <figure class="front"><button (click)="onLogout()">Logout</button></figure>
+          <figure class="back"><button (click)="onLogout()">Logout</button></figure>
+          <figure class="right"></figure>
+          <figure class="left"></figure>
+          <figure class="top"></figure>
+          <figure class="bottom"></figure>
+        </div>
+      </div>
     </div>
-
-    <button type="submit" class="btn btn-success">Submit</button>
-
-  </form>
-</div>
+  </div>
+</section>

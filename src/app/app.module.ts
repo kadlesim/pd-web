@@ -23,6 +23,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomePageComponent } from './home-page/home-page.component';
 import { EventsResolver } from './evetnts/events-resolver.service';
 import { BlogPostComponent } from './blog-post/blog-post.component';
+import { AuthService } from './auth/auth.service';
+import { AuthGuard } from './auth/auth.guard';
+import {FormsModule} from "@angular/forms";
 // import {Md5} from 'ts-md5/dist/md5';
 
 
@@ -43,12 +46,7 @@ const appRoutes: Routes = [
         component: BlogPostComponent
       }
     ]
-    // component: BlogComponent
   },
-  // {
-  //   path: 'blog-post/:path',
-  //   component: BlogPostComponent
-  // },
   {
     path: 'players',
     component: PlayersComponent
@@ -62,7 +60,8 @@ const appRoutes: Routes = [
   },
   {
     path: 'media',
-    component: MediaComponent
+    component: MediaComponent,
+    // canActivate: [AuthGuard]
   },
   {
     path: 'results',
@@ -113,7 +112,8 @@ const appRoutes: Routes = [
       appRoutes,
       // { enableTracing: true } // <-- debugging purposes only
     ),
-    Angular2ImageGalleryModule
+    Angular2ImageGalleryModule,
+    FormsModule,
     // Md5
   ],
   providers: [
@@ -122,7 +122,9 @@ const appRoutes: Routes = [
     PlayersService,
     BlogService,
     BlogPostService,
-    ResultsService
+    ResultsService,
+    AuthService,
+    AuthGuard
   ],
   bootstrap: [
     AppComponent
