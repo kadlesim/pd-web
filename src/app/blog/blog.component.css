@@ -1,4 +1,8 @@
-
+section{
+  background-color: #121212;
+  /*background-size: cover;*/
+  /*background: url("../../assets/fotky/backgroung002.jpg") repeat-y;*/
+}
 div#div-posts{
   padding-right: 10%;
   padding-left: 10%;

@@ -1,9 +1,46 @@
-<p>
-  players works!
-</p>
-
-<ul *ngIf="showPlayers()">
-  <li *ngFor="let player of players">
-    <img src="http://pd.tymy.cz{{player.pictureUrl}}">name: {{player.login}}
-  </li>
-</ul>
+<section>
+  <div id="nadpis-div">
+    <h1 id="nadpis-h1">TÝM</h1>
+  </div>
+  <article id="players-article">
+    <div id="category-btn">
+      <div id="mix-btn"><h1 (click)="showMix()">MIX</h1></div>
+      <div id="open-btn"><h1 (click)="showOpen()">OPEN</h1></div>
+      <div id="women-btn"><h1 (click)="showWomen()">WOMEN</h1></div>
+    </div>
+    <div id="players">
+      <!--ukaze vsechny hrace - prvni nacteni-->
+      <div *ngIf="showAll()">
+        <div class="player" *ngFor="let player of players">
+          <div class="img-div"> <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
+          <div>{{player.login}} #{{player.jerseyNumber}}</div>
+        </div>
+      </div>
+      <!--ukaze vsechny hrace po kliknuti na tlacitko MIX-->
+      <div *ngIf="mix">
+        <div class="player" *ngFor="let player of players">
+          <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
+          <div>{{player.login}} #{{player.jerseyNumber}}</div>
+        </div>
+      </div>
+      <!--ukaze vsechny zeny - resp vsechny co maji gender=="female"-->
+      <div *ngIf="women">
+        <div *ngFor="let player of players">
+          <div class="player" *ngIf="player.gender === 'FEMALE'">
+            <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
+            <div>{{player.login}} #{{player.jerseyNumber}}</div>
+          </div>
+        </div>
+      </div>
+      <!--ukaze vsechny muze - resp vsechny co maji gender=="male"-->
+      <div *ngIf="open">
+        <div *ngFor="let player of players">
+          <div class="player" *ngIf="player.gender === 'MALE'">
+            <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
+            <div>{{player.login}} #{{player.jerseyNumber}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>

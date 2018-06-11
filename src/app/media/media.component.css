@@ -11,7 +11,5 @@ h1 {
 }
 
 h1:hover {
-  /*background-color: lightgray;*/
   border-bottom: 3px darkred solid;
-  /*color: black;*/
 }

@@ -1,7 +1,12 @@
 header { padding: 15px 0; background: #000000; color: #fff;  }
-header div#logo {float: left; width: 20%;}
+header div#logo { float: left; width: 20%;}
 
-header div#nav-div {margin-left: 20%;margin-right: 1%;}
+header div#nav-div { margin-left: 20%;}
+#wrapper{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
 header nav {}
 header nav ul {  /*display: none;*/ float: right;
   display: block !important;
@@ -16,27 +21,29 @@ header nav a:hover:not(.active) { border-bottom: 0.3em darkgray solid;}
 header nav a:hover,
 header nav a.active { border-bottom: 0.3em darkred solid; }
 
-footer { padding: 50px 0; background: #000000; color: #fff; }
+footer { padding: 50px 0; background: #000000; color: #fff; position: relative }
 
-footer .col { width: 100%; margin: 0 0 40px 0; float: left; }
 
 footer #footer-logo { max-width: 64px; display: block; margin: 0 0 20px 0; }
 
-footer nav { }
-footer nav ul { }
-footer nav ul li { display: block; }
-footer nav ul li a { color: #fff; font-weight: 700; font-size: 0.875em; text-transform: uppercase; }
+#kontakty{
+  /*padding-top: 2%;*/
+  text-align: center;
+  padding-left: 14%;
+  padding-right: 15%;
+  line-height: 0.4em;
+}
 
-footer .contact h4,
-footer .social h4 { margin: 0 0 20px 0; font-size: 1.5em; line-height: 1em; }
-footer .contact .read-more { margin: 0; }
+#fb, #mail{
+  float: left;
+  width: 50%;
+}
 
-/*footer .social a { display: inline-block; margin: 0 15px 0 0; height: 22px; background-image: url(img/social-sprite.png); }*/
-footer .social a.facebook { width: 10px; background-position: 0 0; }
-footer .social a.twitter { width: 25px; background-position: -32px 0; }
-footer .social a.instagram { width: 20px; background-position: -76px 0; }
-
-td img {
-   display: block;
-  /*vertical-align: bottom;*/
+#fb > a, #mail > a{
+  text-decoration: none;
+  color: white;
+}
+#fb > img, #mail > img{
+  float: none;
+  margin-right: 10px;
 }

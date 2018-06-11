@@ -1,9 +1,19 @@
-<p>
-  evetnts works!23
-</p>
+<section>
 
-<ul *ngIf="showEvents()">
-  <li *ngFor="let event of events">
-    date : {{event.startTime | date:'yyyy-MM-dd'}} Caption: {{event.caption}}, type: {{event.type}}, des:{{event.description}}
-  </li>
-</ul>
+  <h1>Nadcházející události</h1>
+
+  <table id="event-table" *ngIf="showEvents()">
+    <tr>
+      <th>Datum a čas</th>
+      <th>Událost</th>
+      <th>Místo</th>
+      <th>(odkaz na mapu)</th>
+    </tr>
+    <tr *ngFor="let event of events">
+      <td>{{event.startTime | date:'dd.MM.yyyy, HH:mm'}}</td>
+      <td>{{event.caption}}</td>
+      <td>{{event.place}}</td>
+      <td><a (click)="goToUrl(event.link)">link</a></td>
+    </tr>
+  </table>
+</section>

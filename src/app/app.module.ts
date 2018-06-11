@@ -61,7 +61,7 @@ const appRoutes: Routes = [
   {
     path: 'media',
     component: MediaComponent,
-    // canActivate: [AuthGuard]
+    canActivate: [AuthGuard]
   },
   {
     path: 'results',

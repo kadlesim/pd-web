@@ -1,5 +1,7 @@
 section{
-  background-color: #1a1a1a;
+  background-size: cover;
+  background: url("../../assets/fotky/backgroung005.jpg") repeat-y;
+  height: 75vh;
 }
 .warning{
   background-color: yellow;

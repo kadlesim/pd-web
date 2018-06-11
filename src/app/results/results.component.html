@@ -1,155 +1,175 @@
-<p>
-  results works!
-</p>
-<p>neco</p>
-<div *ngIf="showHistory()">
+<section>
+  <div id="nadpis-div">
+    <h1 id="nadpis-h1">VÝSLEDKY</h1>
+  </div>
+  <div id="history" *ngIf="showHistory()">
     <ul>
-      <h3>Sezona 2015</h3>
+      <h1>Sezona 2015</h1>
       <li *ngFor="let turnaj of sezona15">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2014</h3>
+      <h1>Sezona 2014</h1>
       <li *ngFor="let turnaj of sezona14">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2013</h3>
+      <h1>Sezona 2013</h1>
       <li *ngFor="let turnaj of sezona13">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
       <li>
-        ...po krásném finále v Kolíně nad Rýnem:
-        Hey,
-        It's not usual to spam this list with such reports, but I cannot stay silent after the weekend. Prague Devils, after beeting Heidees convincingly in the pool games, met again with the Germans in the final of Disc Days Cologne.
-        It was one of the best finals I have seen for a long time. It was close all way long, both teams had one or two point leads, but the other always catched up, resulting a universe point at 12-12. The final point was packed with action, the crowd went crazy and the players gave us everything you can possibly wish for.
-        In the end, after a long point Heidees defended their title.
-        Thanks Devils!
-        Gabor
+        <h2>Napsali o nás po krásném finále v Kolíně nad Rýnem:</h2>
+        <div class="onas">
+          Hey, It's not usual to spam this list with such reports, but I cannot stay silent after the weekend. Prague Devils, after beeting Heidees convincingly in the pool games, met again with the Germans in the final of Disc Days Cologne. It was one of the best finals I have seen for a long time. It was close all way long, both teams had one or two point leads, but the other always catched up, resulting a universe point at 12-12. The final point was packed with action, the crowd went crazy and the players gave us everything you can possibly wish for. In the end, after a long point Heidees defended their title. Thanks Devils!
+          Gabor
+        </div>
       </li>
-      <h3>Sezona 2012</h3>
+      <h1>Sezona 2012</h1>
       <li *ngFor="let turnaj of sezona12">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2011</h3>
+      <h1>Sezona 2011</h1>
       <li *ngFor="let turnaj of sezona11">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2010</h3>
+      <h1>Sezona 2010</h1>
       <li *ngFor="let turnaj of sezona10">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2009</h3>
+      <h1>Sezona 2009</h1>
       <li *ngFor="let turnaj of sezona09">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
       <li>
-        Názor trenéra:
-        Vyhráli jsme halový mix proti FUJ a těsně jsme získali zlato i v kategorii open proti PeaceEgg. Holky skončily v divizi women stříbrné, když v tradičním finále podlehly Žluté Zimnici. Podařilo se nám začlenit Papáho dívčí líheň do týmu, takže na jaře máme o 6 hráček navíc. Začali hrát i další noví hráči z ČVUT a to Hroch, který hrál kdysi dávno za FUJe a Jenda. Bohužel se nám na jaro nepodařilo zajistit velké hřiště, a trénování na malém (resp. Vypichu) trochu snížilo kvalitu našich tréninků. Jarní turnaje jsme přesto zvládli výborně, na obou jsme měli dva týmy, které skončily jako třetí/pátí (jako rovnocenné týmy) respektive první/čtvrtí (jako A a B). Mistrovství republiky v kategorii open jsme těsně vyhráli a získali tak čtvrtý titul v řadě. Dívky skončily opět druhé, letos v omlazené sestavě, což je jistě příslib do budoucna. I mistrovství republiky v kategorii mixed nám ukázalo, že jsme na dobré cestě. Postavili jsme i druhý tým, který k zisku zlata přidal svoje sedmé místo. Konec sezóny se nesl ve znamení mistrovství Evropy, kde jsme týmu Silence v kategorii open přispěli sedmi hráči z celkových devatenácti a týmu Hot Beaches dvěma handlerkami, které bohužel turnaj kvůli zranění nemohly dohrát. Na konci sezóny k nám přestoupil Franta z PeaceEgg, takže máme o další konkurenci v týmu víc. Sezónu 09 bych hodnotil jako velmi úspěšnou. Ziskem dvou zlatých a jedné stříbrné medaile z haly a stejnou kolekcí z venku jsme potrvdili svojí formu a odhodlání vítězit, i když už jsou vítězství o hodně víc vydřená než v minulých letech.
+        <h2>Názor trenéra:</h2>
+        <div class="onas">
+          Vyhráli jsme halový mix proti FUJ a těsně jsme získali zlato i v kategorii open proti PeaceEgg. Holky skončily v divizi women stříbrné, když v tradičním finále podlehly Žluté Zimnici. Podařilo se nám začlenit Papáho dívčí líheň do týmu, takže na jaře máme o 6 hráček navíc. Začali hrát i další noví hráči z ČVUT a to Hroch, který hrál kdysi dávno za FUJe a Jenda. Bohužel se nám na jaro nepodařilo zajistit velké hřiště, a trénování na malém (resp. Vypichu) trochu snížilo kvalitu našich tréninků. Jarní turnaje jsme přesto zvládli výborně, na obou jsme měli dva týmy, které skončily jako třetí/pátí (jako rovnocenné týmy) respektive první/čtvrtí (jako A a B). Mistrovství republiky v kategorii open jsme těsně vyhráli a získali tak čtvrtý titul v řadě. Dívky skončily opět druhé, letos v omlazené sestavě, což je jistě příslib do budoucna. I mistrovství republiky v kategorii mixed nám ukázalo, že jsme na dobré cestě. Postavili jsme i druhý tým, který k zisku zlata přidal svoje sedmé místo. Konec sezóny se nesl ve znamení mistrovství Evropy, kde jsme týmu Silence v kategorii open přispěli sedmi hráči z celkových devatenácti a týmu Hot Beaches dvěma handlerkami, které bohužel turnaj kvůli zranění nemohly dohrát. Na konci sezóny k nám přestoupil Franta z PeaceEgg, takže máme o další konkurenci v týmu víc. Sezónu 09 bych hodnotil jako velmi úspěšnou. Ziskem dvou zlatých a jedné stříbrné medaile z haly a stejnou kolekcí z venku jsme potrvdili svojí formu a odhodlání vítězit, i když už jsou vítězství o hodně víc vydřená než v minulých letech.
+        </div>
       </li>
-      <h3>Sezona 2008</h3>
+      <h1>Sezona 2008</h1>
       <li *ngFor="let turnaj of sezona08">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2007</h3>
+      <h1>Sezona 2007</h1>
       <li *ngFor="let turnaj of sezona07">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
-      <h3>Sezona 2006</h3>
+      <h1>Sezona 2006</h1>
       <li *ngFor="let turnaj of sezona06">
-        <p>Turnaj: {{turnaj.turnaj}}</p>
-        <p>Umisteni: {{turnaj.umisteni}}</p>
-        <p>Sestava: {{turnaj.sestava}}</p>
+        <div class="turnaj-div">
+          <p class="turnaj"><b>Turnaj:</b> {{turnaj.turnaj}}</p>
+          <p class="umisteni"><b>Umisteni:</b> {{turnaj.umisteni}}</p>
+          <p class="sestava"><b>Sestava:</b> {{turnaj.sestava}}</p>
+        </div>
       </li>
       <li>
-        po Norimberku o nás napsali:
-        „...The only real surprise coming out of the pre-quarters was the Prague Devils who finished second in their group because of the Koln forfeit they received. Not wanting to disappoint, they faced CEL champion, a large Big EZ squad from Vienna. This had to be the game of the tournament. The Devils, well drilled by their captain and team mate who currently plays with Clapham but lives and trains in Prague, came out firing. They sliced through the loose EZ zone with ease racing out to a 8-5 lead at the half. The Devils continued to go into the lead, moving out to a commanding 14-9 game point lead. Suffice it to say the EZ squad was reeling and disoriented, but took a timeout and resolved to get back into the game. The EZ men tightened their zone and created turn after turn against the small 9-man Devil squad. EZ marched back and although the Devils got close to the goal on a number of occasions, they were unable to punch the final goal home. EZ persevered and managed to come back and tie up the match at 14. Finally the Devils put one in to take a 15-14 lead, but EZ matched again to move to 15 all. Both teams scored and EZ pulled to the Devils. An amazing layout D block got EZ the disc back and EZ moved resolutely down the field to score the winning goal and move into the semi-finals against rival Feldrunner. ...„
+        <h2>Napsali o nás po Norimberku o nás napsali:</h2>
+        <div class="onas">„...The only real surprise coming out of the pre-quarters was the Prague Devils who finished second in their group because of the Koln forfeit they received. Not wanting to disappoint, they faced CEL champion, a large Big EZ squad from Vienna. This had to be the game of the tournament. The Devils, well drilled by their captain and team mate who currently plays with Clapham but lives and trains in Prague, came out firing. They sliced through the loose EZ zone with ease racing out to a 8-5 lead at the half. The Devils continued to go into the lead, moving out to a commanding 14-9 game point lead. Suffice it to say the EZ squad was reeling and disoriented, but took a timeout and resolved to get back into the game. The EZ men tightened their zone and created turn after turn against the small 9-man Devil squad. EZ marched back and although the Devils got close to the goal on a number of occasions, they were unable to punch the final goal home. EZ persevered and managed to come back and tie up the match at 14. Finally the Devils put one in to take a 15-14 lead, but EZ matched again to move to 15 all. Both teams scored and EZ pulled to the Devils. An amazing layout D block got EZ the disc back and EZ moved resolutely down the field to score the winning goal and move into the semi-finals against rival Feldrunner. ...„</div>
       </li>
     </ul>
 
-  <table width="85%">
-    <tr>
-      <td class="topik">PRAGUE DEVILS (1992 - 2001)</td></tr>
-    <tr>
-      <td class="history">Tým PRAGUE DEVILS vznikl <b>1. ledna 1992</b>, toto však je pouze oficiální datum, neboť historie "ďáblů" je spjatá i se samotnou minulostí frisbee v Čechách. Tuto hru do Čech přinesli Italští plavci a o její další rozvoj se postaral Jan 'Papá' Filandr. V té době Papá působil jako odborný asistent katedry tělesné výchovy na ČVUT FEL. Létající talíř mu na tolik učaroval, že se zasadil o to, aby Frisbee Ultimate bylo zařazeno jako volitelný sport tělocviku pro studenty FELu. Psal se podzim roku 1991.<br>
-        Ze studentů navštěvujících Frisbee vznikl tým PRAGUE DEVILS. V České republice v té době pobývalo mnoho Američanů, kteří pomohli s prvními tréninky, metodikou a systémem hry. Zároveň také přinesly cenné kontakty na Frisbee týmy v zahraničí, díky tomu začínají PD objíždět zahraniční turnaje. Prvním turnajem v zahraničí byl Brusel v roce 1992. Devils obsadili předposlední místo - poslední skončil tým z Francie, který držel disk poprvé až na tomto turnaji ;o))<br>
-        Dalším cílem byl WIZ OPEN v Ženevě, Rotterdam a tak to pokračovalo dál a dál...<br>
-        Na základě těchto zkušeností se PD rozhodli, mám pocit že hlavním iniciátorem byl Pavel Korčák, uspořádat podobný turnaj i u nás - a tak vznikly FRISBEERCUP (halový) a PRAŽSKÉ JARO (venkovní) - mezinárodní turnaje, které se, alespoň zpočátku těšily v zahraničí velké oblibě. Je otázkou zda to bylo jakousi exotičností České republiky, či obrovským nasazením pro věc bývalých Devils. Těžko říct, pravda je asi někde mezi. Faktem však zůstává, že tradice Pražského Jara již bohužel skončila...<br>
-        Počátkem roku 1993 se Frisbee v České republice začíná vyvíjet, vznikají další týmy, Evropská (EFDF) a Světová Asociace Létacího Disku (WFDF) nabízejí účast na Mistrovství Evropy v Holandsku. Vzhledem k tomu, že je určitá šance finanční podpory od státu pro Českou reprezentaci, je nutné zviditelnit Frisbee i pro oficiální složky - vzniká tedy Česká Asociace Létajícího Disku (ČALD), která zastřešovala všechny sporty s létajícím talířem. Ve vedení ČALD jsou právě členové Prague Devils, předsedou je zvolen Honza Hanousek. ČALD krátce po svém vzniku organizuje první Mistrovství Republiky - jehož vítězem se stávají Prague Devils. V srpnu 1993 odjíždí reprezentace, složená zejména z hráčů Devils, do Holandského Papendalu, kde sbírá první zkušenosti s Evropskou špičkou.<br>
-        Následující události jen telegraficky (zmiňuji pouze významné události s účastí členů PD):</td></tr>
-    <tr>
-      <td class="points">
-        <li>1994 (květen) - mistrovství ČR</li>
-        <li>1994 (červen) - mistrovství Evropy klubů - Eching (D)</li>
-        <li>1994 (podzim) - David Novák odchází a zakládá vlastní tým 3SB</li>
-        <li>1995 (srpen) - mistrovství světa - Colchester (GB)</li>
-        <li>1995 (zima) - Jan Hanousek odchází a zakládá tým BOWLE</li>
-        <li>1996 (srpen) - mistrovství Evropy - Fonte nai Le Conte (F) </li>
-        <li>1997 (srpen) - mistrovství světa - Jonkoping (SWE)</li>
-        <li>1997 (zima) - odchází Libor Seifrt s celým B týmem a zakládají tým Pražská 7</li>
-        <li>2000 (leden) - neoficialni HMČR Open - 1. misto</li>
-        <li>2000 (srpen) - mistrovství světa - Heilbronn (D)</li>
-        <li>2001 (leden) - neoficialni HMČR Open - 1. misto</li>
-        <li>2001 (květen) - Petr Medek se stává předsedou ČALD</li>
-        <li>2001 (červen) - 3. místo v lize
-        <li>2001 (červenec) - mistrovství Evropy klubů - Praha (CZ)</li>
-        <li>2001 (červenec) - založena sekce rozvoj spadající pod ČALD pod vedením Kristiny Klímové</li></td></tr>
+    <table>
+      <tr>
+        <td><h2>PRAGUE DEVILS (1992 - 2001)</h2></td>
+      </tr>
+      <tr>
+        <td ><div class="onas"> Tým PRAGUE DEVILS vznikl <b>1. ledna 1992</b>, toto však je pouze oficiální datum, neboť historie "ďáblů" je spjatá i se samotnou minulostí frisbee v Čechách. Tuto hru do Čech přinesli Italští plavci a o její další rozvoj se postaral Jan 'Papá' Filandr. V té době Papá působil jako odborný asistent katedry tělesné výchovy na ČVUT FEL. Létající talíř mu na tolik učaroval, že se zasadil o to, aby Frisbee Ultimate bylo zařazeno jako volitelný sport tělocviku pro studenty FELu. Psal se podzim roku 1991. Ze studentů navštěvujících Frisbee vznikl tým PRAGUE DEVILS. V České republice v té době pobývalo mnoho Američanů, kteří pomohli s prvními tréninky, metodikou a systémem hry. Zároveň také přinesly cenné kontakty na Frisbee týmy v zahraničí, díky tomu začínají PD objíždět zahraniční turnaje. Prvním turnajem v zahraničí byl Brusel v roce 1992. Devils obsadili předposlední místo - poslední skončil tým z Francie, který držel disk poprvé až na tomto turnaji ;o)). Dalším cílem byl WIZ OPEN v Ženevě, Rotterdam a tak to pokračovalo dál a dál... Na základě těchto zkušeností se PD rozhodli, mám pocit že hlavním iniciátorem byl Pavel Korčák, uspořádat podobný turnaj i u nás - a tak vznikly FRISBEERCUP (halový) a PRAŽSKÉ JARO (venkovní) - mezinárodní turnaje, které se, alespoň zpočátku těšily v zahraničí velké oblibě. Je otázkou zda to bylo jakousi exotičností České republiky, či obrovským nasazením pro věc bývalých Devils. Těžko říct, pravda je asi někde mezi. Faktem však zůstává, že tradice Pražského Jara již bohužel skončila... Počátkem roku 1993 se Frisbee v České republice začíná vyvíjet, vznikají další týmy, Evropská (EFDF) a Světová Asociace Létacího Disku (WFDF) nabízejí účast na Mistrovství Evropy v Holandsku. Vzhledem k tomu, že je určitá šance finanční podpory od státu pro Českou reprezentaci, je nutné zviditelnit Frisbee i pro oficiální složky - vzniká tedy Česká Asociace Létajícího Disku (ČALD), která zastřešovala všechny sporty s létajícím talířem. Ve vedení ČALD jsou právě členové Prague Devils, předsedou je zvolen Honza Hanousek. ČALD krátce po svém vzniku organizuje první Mistrovství Republiky - jehož vítězem se stávají Prague Devils. V srpnu 1993 odjíždí reprezentace, složená zejména z hráčů Devils, do Holandského Papendalu, kde sbírá první zkušenosti s Evropskou špičkou. Následující události jen telegraficky (zmiňuji pouze významné události s účastí členů PD):</div></td>
+      </tr>
+      <tr>
+        <td>
+          <li>1994 (květen) - mistrovství ČR</li>
+          <li>1994 (červen) - mistrovství Evropy klubů - Eching (D)</li>
+          <li>1994 (podzim) - David Novák odchází a zakládá vlastní tým 3SB</li>
+          <li>1995 (srpen) - mistrovství světa - Colchester (GB)</li>
+          <li>1995 (zima) - Jan Hanousek odchází a zakládá tým BOWLE</li>
+          <li>1996 (srpen) - mistrovství Evropy - Fonte nai Le Conte (F) </li>
+          <li>1997 (srpen) - mistrovství světa - Jonkoping (SWE)</li>
+          <li>1997 (zima) - odchází Libor Seifrt s celým B týmem a zakládají tým Pražská 7</li>
+          <li>2000 (leden) - neoficialni HMČR Open - 1. misto</li>
+          <li>2000 (srpen) - mistrovství světa - Heilbronn (D)</li>
+          <li>2001 (leden) - neoficialni HMČR Open - 1. misto</li>
+          <li>2001 (květen) - Petr Medek se stává předsedou ČALD</li>
+          <li>2001 (červen) - 3. místo v lize
+          <li>2001 (červenec) - mistrovství Evropy klubů - Praha (CZ)</li>
+          <li>2001 (červenec) - založena sekce rozvoj spadající pod ČALD pod vedením Kristiny Klímové</li>
+        </td>
+      </tr>
 
-    <tr>
-      <!--<td class="history">A co bude dál? Uvidíme...</td></tr>-->
-      <td class="sign">- [za pomoci PASTI sepsal burton] -</td></tr>
-  </table>
-  <table width="85%">
-    <tr>
-      <td class="topik">PRAGUE DEVILS (2002 - 2006)</td></tr>
-    <tr>
-      <td class="history"></td></tr>
-    <tr>
-      <td class="points">
-        <li>2002 (duben) - beach turnaj Rimini (ITA) - 9. místo, coed</li>
-        <li>2002 (červen) - 4. místo v lize</li>
-        <li>2002 (říjen) - jubilejní 10tý HH Cup</li>
-        <li>2003 (leden) - založení CEL - středoevropské ligy</li>
-        <li>2003 (únor) - konec české ligy, zavedení open mistrovství</li>
-        <li>2003 (březen) - jubilejní 10tý FrisBeer Cup </li>
-        <li>2003 (duben) - HMČR Chomutov - 1. místo</li>
-        <li>2003 (duben) - beach turnaj Rimini (ITA) - 11. místo, coed</li>
-        <li>2003 (červen) - MČR Open - 1. místo</li>
-        <li>2003 (srpen) - EURO Fontenay Le Comte (FR) - 3 místo + spirit (coed, reprezentace)</li>
-        <li>2004 (březen) - HMČR Coed - 1. místo</li>
-        <li>2004 (duben) - HMČR Open - 1. místo</li>
-        <li>2004 (léto) - MČR Open - 3. místo + MČR Ženy - 1. místo</li>
-        <li>2004 (srpen) - WUGC Turku (FIN) - 6. místo (coed, reprezentace)</li>
-        <li>2004 (září) - MČR Coed - 1. místo - první coedové mistrovství v ČR</li>
-        <li>2004 (září) - finále CEL - 2. místo</li>
-        <li>2005 (leden) - HMČR Open - 1. místo</li>
-        <li>2005 (březen) - HMČR Coed - 1. místo</li>
-        <li>2005 (září) - MČR Open - 2. místo</li>
-        <li>2005 (září) - Petr Medek opouští post předsedy ČALD</li>
-        <li>2005 (březen) - HMČR Coed - 1. místo</li>
-        <li>2005 (září) - finále CEL - 2. místo (společně s TM)</li>
-        <li>2005 (září) - MČR Coed - 2. místo</li>
-        <li>2006 (leden) - HMČR Open - 2. místo + HMČR Ženy - 2. místo</li>
-        <li>2006 (březen) - HMČR Coed - 1. místo</li>
-        <li>2006 (květen) - Chrást 2006 - 1. místo + spirit .. po dlouhé době</li></td></tr>
-    <tr>
-      <td class="history">Pokračování historie PD můžete najít <a href="index.php?page=sezona06&lang=cz" target="_top">zde</a> ...</td></tr>
-    <td class="sign">- [za pomoci PASTI sepsal lukasicek] -</td>
-  </table>
-</div>
+      <tr>
+        <td>- [za pomoci PASTI sepsal burton] -</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><h2>PRAGUE DEVILS (2002 - 2006)</h2></td>
+      </tr>
+      <tr>
+        <td></td></tr>
+      <tr>
+        <td>
+          <li>2002 (duben) - beach turnaj Rimini (ITA) - 9. místo, coed</li>
+          <li>2002 (červen) - 4. místo v lize</li>
+          <li>2002 (říjen) - jubilejní 10tý HH Cup</li>
+          <li>2003 (leden) - založení CEL - středoevropské ligy</li>
+          <li>2003 (únor) - konec české ligy, zavedení open mistrovství</li>
+          <li>2003 (březen) - jubilejní 10tý FrisBeer Cup </li>
+          <li>2003 (duben) - HMČR Chomutov - 1. místo</li>
+          <li>2003 (duben) - beach turnaj Rimini (ITA) - 11. místo, coed</li>
+          <li>2003 (červen) - MČR Open - 1. místo</li>
+          <li>2003 (srpen) - EURO Fontenay Le Comte (FR) - 3 místo + spirit (coed, reprezentace)</li>
+          <li>2004 (březen) - HMČR Coed - 1. místo</li>
+          <li>2004 (duben) - HMČR Open - 1. místo</li>
+          <li>2004 (léto) - MČR Open - 3. místo + MČR Ženy - 1. místo</li>
+          <li>2004 (srpen) - WUGC Turku (FIN) - 6. místo (coed, reprezentace)</li>
+          <li>2004 (září) - MČR Coed - 1. místo - první coedové mistrovství v ČR</li>
+          <li>2004 (září) - finále CEL - 2. místo</li>
+          <li>2005 (leden) - HMČR Open - 1. místo</li>
+          <li>2005 (březen) - HMČR Coed - 1. místo</li>
+          <li>2005 (září) - MČR Open - 2. místo</li>
+          <li>2005 (září) - Petr Medek opouští post předsedy ČALD</li>
+          <li>2005 (březen) - HMČR Coed - 1. místo</li>
+          <li>2005 (září) - finále CEL - 2. místo (společně s TM)</li>
+          <li>2005 (září) - MČR Coed - 2. místo</li>
+          <li>2006 (leden) - HMČR Open - 2. místo + HMČR Ženy - 2. místo</li>
+          <li>2006 (březen) - HMČR Coed - 1. místo</li>
+          <li>2006 (květen) - Chrást 2006 - 1. místo + spirit .. po dlouhé době</li></td></tr>
+      <td class="sign">- [za pomoci PASTI sepsal lukasicek] -</td>
+    </table>
+  </div>
+
+</section>

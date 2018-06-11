@@ -25,6 +25,10 @@ export class EvetntsComponent  implements OnInit {
     console.log('showEvents');
   }
 
+  goToUrl(url: any): void {
+    // document.location.href = url;
+    window.open(url);
+  }
 
 
   showEvents() {
