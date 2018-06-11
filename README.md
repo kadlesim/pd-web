@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Intalace
 Nainstalovat nodejs -> npm install -> ng serve
+jeste je potrebovat zkopirovat adresar 'img' do adresare 'assets' (odkaz - https://drive.google.com/open?id=1JP3DVTvgTelSZUsdslIAKlgAz20kHYDb ) ( duvod: moc velky objem dat na github)
 
 ## Development server
 
