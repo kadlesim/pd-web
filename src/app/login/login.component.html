@@ -1,5 +1,5 @@
 <!--<p>-->
-  <!--login works!-->
+<!--login works!-->
 <!--</p>-->
 
 <section>
@@ -7,47 +7,22 @@
 
     <div class="warning">! Pro zalozku media potrebujete byt prihlaseni (po prihlaseni budete presmerovani) !</div>
 
-    <!--<h1>Login Form</h1>-->
+    <h1>Login Form</h1>
     <div class="container">
       <form #form="ngForm" (submit)="login(form)">
-        <div class="cube-container">
-          <div class="cube">
-            <figure class="front">
-              <div class="form-group">
-                <input type="text" id="username" placeholder="jmeno" name="username" ngModel="" required>
-              </div>
-            </figure>
-            <figure class="back"></figure>
-            <figure class="right">
-              <div class="form-group">
-                <input type="password" id="password" placeholder="heslo" name="password" ngModel="" required>
-              </div>
-            </figure>
-            <figure class="left">
-              <button type="submit" class="btn-login">Prihlasit</button><!--(click)="login()"-->
-            </figure>
-            <figure class="top"></figure>
-            <figure class="bottom"></figure>
-          </div>
-        </div>
+        <input type="text" id="username" placeholder="jmeno" name="username" ngModel="" required>
+        <input type="password" id="password" placeholder="heslo" name="password" ngModel="" required>
+        <button type="submit" class="btn-login">Prihlasit</button><!--(click)="login()"-->
       </form>
     </div>
+
   </div>
 
   <div *ngIf="(isLoggedIn$ | async)">
 
     <!--<h1>Login Form</h1>-->
     <div class="container">
-      <div class="cube-container">
-        <div class="cube">
-          <figure class="front"><button (click)="onLogout()">Logout</button></figure>
-          <figure class="back"><button (click)="onLogout()">Logout</button></figure>
-          <figure class="right"></figure>
-          <figure class="left"></figure>
-          <figure class="top"></figure>
-          <figure class="bottom"></figure>
-        </div>
-      </div>
+      <button (click)="onLogout()">Logout</button>
     </div>
   </div>
 </section>
