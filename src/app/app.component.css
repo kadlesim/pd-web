@@ -1,49 +1,156 @@
-header { padding: 15px 0; background: #000000; color: #fff;  }
-header div#logo { float: left; width: 20%;}
-
-header div#nav-div { margin-left: 20%;}
-#wrapper{
-  width:80%;
-  margin-left:10%;
-  margin-right:10%;
+/*app header*/
+#app-header{
+  grid-area: header;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-areas:
+    'logo logo logo logo menu';
 }
-header nav {}
-header nav ul {  /*display: none;*/ float: right;
-  display: block !important;
-  padding: 30px 0 0 0;}
-header li {display: block;
-  float: left;
-  padding: 0 0 0 30px;
-  text-align: left;
-  width: auto; }
-header nav a { color: #fff; font-size: 1.2em; text-transform: uppercase; padding: 0 0 2px 0; text-decoration: none; }
-header nav a:hover:not(.active) { border-bottom: 0.3em darkgray solid;}
-header nav a:hover,
-header nav a.active { border-bottom: 0.3em darkred solid; }
-
-footer { padding: 50px 0; background: #000000; color: #fff; position: relative }
-
-
-footer #footer-logo { max-width: 64px; display: block; margin: 0 0 20px 0; }
-
-#kontakty{
-  /*padding-top: 2%;*/
+#logo-container{
+  grid-area: logo;
+  width: 100%;
+  /*float: right;*/
+  grid-column: 3;
+}
+#pd-logo{
+  width: 100%;
+  max-width: 175px;
+  min-width: 74px;
+  height: 14vh;
+  min-height: 42px;
+  color: white;
+  fill: currentColor;
+  padding-top: 2.2vh;
+  margin-bottom: 2.5vh;
+}
+/*svg:hover{*/
+  /*color: red;*/
+  /*fill: currentColor;*/
+  /*!*transition: 0.2s ease-out all .1s;*!*/
+/*}*/
+#menu-container{
+  grid-area: menu;
+  display: flex;
+  align-items: center;
+  grid-column: 4;
+}
+ul{
+  list-style-type: none;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 1.2vw;
+}
+li{
+  position: relative;
+  display: block;
+  width: 100%;
   text-align: center;
-  padding-left: 14%;
-  padding-right: 15%;
-  line-height: 0.4em;
+  cursor: pointer;
+  /*padding-right: 1.1vw;*/
 }
-
-#fb, #mail{
-  float: left;
-  width: 50%;
-}
-
-#fb > a, #mail > a{
+li > a{
+  text-align: center;
   text-decoration: none;
   color: white;
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
 }
-#fb > img, #mail > img{
-  float: none;
-  margin-right: 10px;
+li > a:hover,
+li > a:focus {
+  color: #fff;
+  text-decoration: none;
 }
+li > a::after {
+  content: "";
+  position: absolute;
+}
+
+li a::after {
+  top: 100%;
+  height: 3px !important;
+  width: 0;
+  left: 50%;
+  background-color: red;
+  transition: 0.2s ease-out all .1s;
+}
+
+li:hover a::after {
+  width: 101%;
+  left: 0;
+  transition: 0.3s ease all;
+}
+
+li > a.active{
+  color: gray;
+}
+
+#app-main-section{
+  grid-area: main;
+  /*display: grid;*/
+  /*margin-top: -20px;*/
+}
+/* footer */
+#app-footer{
+  grid-area: footer;
+  background-color: black;
+  display: grid;
+  grid-template-areas:
+      '. fb mail .';
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 14vh;
+}
+
+#app-footer > div > img{
+  margin-right: 2vw;
+  vertical-align: middle;
+}
+
+#fb{
+  grid-area: fb;
+}
+
+#mail{
+  grid-area: mail;
+}
+
+#mail > a,#fb > a{
+  /*text-align: center;*/
+  text-decoration: none;
+  color: white;
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
+  top: 2px;
+}
+#mail a:hover,#fb a:hover,
+#mail a:focus,#fb a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+#mail a::after,#fb a::after {
+  content: "";
+  position: absolute;
+}
+
+#mail a::after,#fb a::after {
+  top: 100%;
+  height: 3px !important;
+  width: 0;
+  left: 50%;
+  background-color: red;
+  transition: 0.2s ease-out all .1s;
+}
+
+#fb:hover a::after, #mail:hover a::after {
+  width: 101%;
+  left: 0;
+  transition: 0.3s ease all;
+}
+
+
+

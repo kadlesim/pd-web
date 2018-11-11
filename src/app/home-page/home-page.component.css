@@ -1,62 +1,63 @@
-section{
-/*margin-bottom: 150vh;*/
-}
-
-@keyframes example {
-  0% {background: url("../../assets/fotky/backgroung001.jpg"); opacity: 1; }
-  25% {background: url("../../assets/fotky/backgroung001.jpg"); opacity: 0.8;}
-  49% {background: url("../../assets/fotky/backgroung001.jpg"); opacity: 0.6;}
-  50% {background: url("../../assets/fotky/backgroung002.jpg"); opacity: 0.6;}
-  75% {background: url("../../assets/fotky/backgroung002.jpg"); opacity: 0.8;}
-  100% {background: url("../../assets/fotky/backgroung002.jpg"); opacity: 1;}
-}
-
-#img-div{
-  text-align: justify;
-  /*background-image: url("../../assets/fotky/backgroung001.jpg");*/
+#page-main-section{
+  background-image: url("../../assets/fotky/backgroung004.jpg");
   background-size: cover;
-  /*height: 75vh;*/
-  animation-name: example;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
+  /*background-color: red;*/
+  display: grid;
+  grid-template-areas:
+    'heading'
+    'aboutus'
+    'aboutultimate';
+  color: white;
+  font-weight: lighter;
 }
 
-#nadpis-div{
+#page-main-section > div, article{
+  margin-left: 16vw;
+  margin-right: 15vw;
+}
+
+article{
+  text-align: justify;
+}
+
+#heading{
+  grid-area: heading;
+  margin-top: 10vh;
   text-align: center;
-  /*background-size: cover;*/
-  /*background-image: url("../../assets/fotky/backgroung004.jpg");*/
   text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 360px;
-  float: right;
+  letter-spacing: .2rem;
 }
-#nadpis-h1{
+
+#heading > h1 {
   font-weight: bold;
-  font-size: 6em;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 0;
+  font-size: 4.5em;
+  margin-bottom: 3vh;
+  margin-top: 4vh;
 }
-
-#nadpis-div > h3{
+#heading > h3 {
   font-style: italic;
+  font-size: 1.5em;
+  font-weight: lighter;
 }
-
-#onas > h1{
-  border-bottom: solid white 3px;
+article > div {
+  letter-spacing: .1rem;
+  font-weight: lighter;
+  font-size: .95em;
+}
+article > h1 {
+  border-bottom: solid red 3px;
   text-align: center;
   line-height: 2em;
   font-size: 2em;
 }
-
-#oultimate > h1{
-  border-bottom: solid white 3px;
-  text-align: center;
-  line-height: 2em;
-  font-size: 2em;
+#about-us{
+  grid-area: aboutus;
+  margin-top: 7vh;
+  margin-bottom: 3vh;
 }
 
+#about-ultimate{
+  grid-area: aboutultimate;
+  margin-top: 7vh;
+  margin-bottom: 18vh;
+}

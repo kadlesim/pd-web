@@ -8,19 +8,19 @@
       <div id="open-btn"><h1 (click)="showOpen()">OPEN</h1></div>
       <div id="women-btn"><h1 (click)="showWomen()">WOMEN</h1></div>
     </div>
-    <div id="players">
+    <div id="players-list">
       <!--ukaze vsechny hrace - prvni nacteni-->
       <div *ngIf="showAll()">
         <div class="player" *ngFor="let player of players">
           <div class="img-div"> <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-          <div>{{player.login}} #{{player.jerseyNumber}}</div>
+          <div>{{player.callName}} #{{player.jerseyNumber}}</div>
         </div>
       </div>
       <!--ukaze vsechny hrace po kliknuti na tlacitko MIX-->
       <div *ngIf="mix">
         <div class="player" *ngFor="let player of players">
           <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-          <div>{{player.login}} #{{player.jerseyNumber}}</div>
+          <div>{{player.callName}} #{{player.jerseyNumber}}</div>
         </div>
       </div>
       <!--ukaze vsechny zeny - resp vsechny co maji gender=="female"-->
@@ -28,7 +28,7 @@
         <div *ngFor="let player of players">
           <div class="player" *ngIf="player.gender === 'FEMALE'">
             <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-            <div>{{player.login}} #{{player.jerseyNumber}}</div>
+            <div>{{player.callName}} #{{player.jerseyNumber}}</div>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
         <div *ngFor="let player of players">
           <div class="player" *ngIf="player.gender === 'MALE'">
             <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-            <div>{{player.login}} #{{player.jerseyNumber}}</div>
+            <div>{{player.callName}} #{{player.jerseyNumber}}</div>
           </div>
         </div>
       </div>

@@ -4,32 +4,20 @@
   src: url("https://fonts.googleapis.com/css?family=Roboto");
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary  { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-audio:not([controls]) { display: none; height: 0; }
-[hidden] { display: none; }
+*{
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
 
+body{
+  margin: 0;
+}
 
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: white}
-html, button, input, select, textarea { font-family: "Roboto Light", sans-serif; }
-body { margin: 0; font-size: 1em; line-height: 1.4; }
-
-
-div, article, section, header, footer, nav, figure, li { position: relative; }
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-body { background: #000000; margin: 0 auto; position: relative; box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); }
-
-article,
-section,
-nav,
-header,
-aside,
-footer { width: 100%; float: left; }
-
-section{
-  height: 100%;
-
-  position: static;
+app-root{
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  /*width: 100vw;*/
 }
