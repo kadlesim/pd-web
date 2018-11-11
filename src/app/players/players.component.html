@@ -1,7 +1,6 @@
-<section>
-  <div id="nadpis-div">
-    <h1 id="nadpis-h1">TÝM</h1>
-  </div>
+<section id="page-main-section">
+    <h1 id="players-heading">TÝM</h1>
+
   <article id="players-article">
     <div id="category-btn">
       <div id="mix-btn"><h1 (click)="showMix()">MIX</h1></div>
@@ -13,14 +12,14 @@
       <div *ngIf="showAll()">
         <div class="player" *ngFor="let player of players">
           <div class="img-div"> <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-          <div>{{player.callName}} #{{player.jerseyNumber}}</div>
+          <div>{{player.callName}} <br> #{{player.jerseyNumber}}</div>
         </div>
       </div>
       <!--ukaze vsechny hrace po kliknuti na tlacitko MIX-->
       <div *ngIf="mix">
         <div class="player" *ngFor="let player of players">
           <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-          <div>{{player.callName}} #{{player.jerseyNumber}}</div>
+          <div>{{player.callName}} <br> #{{player.jerseyNumber}}</div>
         </div>
       </div>
       <!--ukaze vsechny zeny - resp vsechny co maji gender=="female"-->
@@ -28,7 +27,7 @@
         <div *ngFor="let player of players">
           <div class="player" *ngIf="player.gender === 'FEMALE'">
             <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-            <div>{{player.callName}} #{{player.jerseyNumber}}</div>
+            <div>{{player.callName}} <br> #{{player.jerseyNumber}}</div>
           </div>
         </div>
       </div>
@@ -37,7 +36,7 @@
         <div *ngFor="let player of players">
           <div class="player" *ngIf="player.gender === 'MALE'">
             <div class="img-div" > <img class="player-img" src="http://pd.tymy.cz{{player.pictureUrl}}"></div>
-            <div>{{player.callName}} #{{player.jerseyNumber}}</div>
+            <div>{{player.callName}} <br> #{{player.jerseyNumber}}</div>
           </div>
         </div>
       </div>

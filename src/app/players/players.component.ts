@@ -42,10 +42,10 @@ export class PlayersComponent implements OnInit {
       this.mix = false;
     }
     const o = document.getElementById('open-btn');
-    if (this.open && (o.style.borderBottomColor === 'white' || o.style.borderBottomColor === '')) {
-      o.style.borderBottomColor = 'darkred';
-      document.getElementById('mix-btn').style.borderBottomColor = 'white';
-      document.getElementById('women-btn').style.borderBottomColor = 'white';
+    if (this.open && (o.style.color === 'white' || o.style.color === '')) {
+      o.style.color = 'gray';
+      document.getElementById('mix-btn').style.color = 'white';
+      document.getElementById('women-btn').style.color = 'white';
     } else {
       o.style.borderBottomColor = 'white';
     }
@@ -59,12 +59,12 @@ export class PlayersComponent implements OnInit {
       this.mix = false;
     }
     const x = document.getElementById('women-btn');
-    if (this.women && (x.style.borderBottomColor === 'white' || x.style.borderBottomColor === '')) {
-      x.style.borderBottomColor = 'darkred';
-      document.getElementById('mix-btn').style.borderBottomColor = 'white';
-      document.getElementById('open-btn').style.borderBottomColor = 'white';
+    if (this.women && (x.style.color === 'white' || x.style.color === '')) {
+      x.style.color = 'gray';
+      document.getElementById('mix-btn').style.color = 'white';
+      document.getElementById('open-btn').style.color = 'white';
     } else {
-      x.style.borderBottomColor = 'white';
+      x.style.color = 'white';
     }
   }
 
@@ -77,12 +77,12 @@ export class PlayersComponent implements OnInit {
       this.women = false;
     }
     const x = document.getElementById('mix-btn');
-    if (this.mix && (x.style.borderBottomColor === 'white' || x.style.borderBottomColor === '')) {
-      x.style.borderBottomColor = 'darkred';
-      document.getElementById('open-btn').style.borderBottomColor = 'white';
-      document.getElementById('women-btn').style.borderBottomColor = 'white';
+    if (this.mix && (x.style.color === 'white' || x.style.color === '')) {
+      x.style.color = 'gray';
+      document.getElementById('open-btn').style.color = 'white';
+      document.getElementById('women-btn').style.color = 'white';
     } else {
-      x.style.borderBottomColor = 'white';
+      x.style.color = 'white';
     }
   }
 

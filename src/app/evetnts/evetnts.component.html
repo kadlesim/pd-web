@@ -1,19 +1,23 @@
-<section>
+<section id="page-main-section">
 
-  <h1>Nadcházející události</h1>
+  <h1 id="event-heading">Nadcházející události</h1>
 
   <table id="event-table" *ngIf="showEvents()">
-    <tr>
-      <th>Datum a čassss</th>
-      <th>Událost</th>
-      <th>Místo</th>
-      <th>(odkaz na mapu)</th>
-    </tr>
-    <tr *ngFor="let event of events">
-      <td>{{event.startTime | date:'dd.MM.yyyy, HH:mm'}}</td>
-      <td>{{event.caption}}</td>
-      <td>{{event.place}}</td>
-      <td><a (click)="goToUrl(event.link)">link</a></td>
-    </tr>
+    <thead>
+      <tr>
+        <th>Datum a čas</th>
+        <th>Událost</th>
+        <th>Místo</th>
+        <th>Mapa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let event of events">
+        <td>{{event.startTime | date:'dd.MM.yyyy, '}}<b>{{event.startTime | date:'HH:mm'}}</b></td>
+        <td>{{event.caption}}</td>
+        <td>{{event.place}}</td>
+        <td><a (click)="goToUrl(event.link)">link</a></td>
+      </tr>
+    </tbody>
   </table>
 </section>

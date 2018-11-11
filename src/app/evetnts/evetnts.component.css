@@ -1,0 +1,55 @@
+#page-main-section{
+  background-image: url("../../assets/fotky/backgroung004.jpg");
+  background-size: cover;
+  /*background-color: red;*/
+  display: grid;
+  grid-template-areas:
+    'eventheading'
+    'eventtable';
+  color: white;
+  font-weight: lighter;
+}
+
+#page-main-section > h1,table{
+  margin-left: 16vw;
+  margin-right: 15vw;
+  /*width: 75%;*/
+  /*position: relative;*/
+  /*left: 16vw;*/
+}
+
+#event-heading{
+  grid-area: eventheading;
+  border-bottom: solid red 2px;
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 3em;
+  letter-spacing: .2rem;
+}
+
+#event-table{
+  grid-area: eventtable;
+  width: 66vw;
+  padding-bottom: 16vh;
+  /*margin-right: 0;*/
+  /*padding-right: 15vw;*/
+  /*background-color: dimgray;*/
+}
+thead{
+  letter-spacing: .2rem;
+  text-align: left;
+  line-height: 2em;
+}
+tbody tr{
+  line-height: 1.7em;
+  letter-spacing: .1rem;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+/*tbody tr:nth-child(even) {*/
+  /*background-color: black;*/
+/*}*/

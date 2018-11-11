@@ -45,9 +45,10 @@ article > div {
   font-size: .95em;
 }
 article > h1 {
-  border-bottom: solid red 3px;
+  border-bottom: solid red 2px;
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
   text-align: center;
-  line-height: 2em;
+  line-height: 1.5em;
   font-size: 2em;
 }
 #about-us{
